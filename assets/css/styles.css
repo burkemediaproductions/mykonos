@@ -58,7 +58,7 @@ button { font: inherit; }
 }
 .section {
   position: relative;
-  padding: clamp(4rem, 7vw, 7rem) 0;
+  padding: 15px 0 125px;
 }
 .section:not(.hero-home) {
   z-index: 2;
@@ -1008,7 +1008,7 @@ button { font: inherit; }
 }
 @media (max-width: 640px) {
   .container { width: min(calc(100% - 1.2rem), var(--max)); }
-  .section { padding: 8rem 0; }
+  .section { padding: 1px 20px 120px; }
   .header-inner { min-height: 80px; }
  .hero-content {
 	 margin-left:25px;
