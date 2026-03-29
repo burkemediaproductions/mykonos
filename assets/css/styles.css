@@ -1782,11 +1782,11 @@ body.menu-open { overflow: hidden; }
 .about-hero-content {
 	margin-right:25px;
 	padding-left:0;
-	max-width:600px;
+	max-width:600px;	
 }
 
 @media (max-width: 640px) {
  .about-hero-content {
 	margin-right:0;
 	padding-left:25px;
-}
+ }
