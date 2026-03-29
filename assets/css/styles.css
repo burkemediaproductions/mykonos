@@ -1012,6 +1012,7 @@ button { font: inherit; }
   .header-inner { min-height: 80px; }
  .hero-content {
 	 margin-left:25px;
+	 padding-right:25px;
  }
   .hero-home .hero-content {
     display: flex;
