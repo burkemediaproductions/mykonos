@@ -60,6 +60,9 @@ button { font: inherit; }
   position: relative;
   padding: clamp(4rem, 7vw, 7rem) 0;
 }
+.section:not(.hero-home) {
+  z-index: 2;
+}
 .section-light { background: var(--bg); }
 .section-olive { background: linear-gradient(180deg, #788d47 0%, #607336 100%); color: #fff; }
 .section-cream { background: var(--bg-alt); }
@@ -468,23 +471,22 @@ button { font: inherit; }
 }
 
 .hero-home {
-  position: relative;
-  min-height: calc(100svh - var(--header));
-  min-height: calc(100dvh - var(--header));
+  position: sticky;
+  top: 0;
   margin-top: 0;
+  z-index: 0;
 }
 
 .short-hero { min-height: 34rem; }
 .mini-hero { min-height: 18rem; }
 
-.hero-home .hero-video {
+.hero .hero-video {
   position: absolute;
-  top: 0;
-  left: 0;
   inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center center;
   z-index: 0;
   pointer-events: none;
 }
@@ -528,7 +530,9 @@ button { font: inherit; }
   z-index: 2;
   max-width: 46rem;
   padding-top: 2rem;
-  padding-bottom: 7rem;
+  padding-bottom: 2rem;
+  min-height: 100vh;
+  margin-left:120px;	
 }
 /* Simple gradient hero for interior pages */
 .hero-simple {
@@ -623,7 +627,7 @@ button { font: inherit; }
   line-height: .95;
   margin: 0 0 1rem;
 }
-.hero h1 { font-size: clamp(3.2rem, 8vw, 6.5rem); }
+.hero h1 { font-size: clamp(3.2rem, 4vw, 6.5rem); }
 .hero-copy {
   font-size: clamp(1.04rem, 2.2vw, 1.26rem);
   max-width: 42rem;
@@ -997,11 +1001,6 @@ button { font: inherit; }
 
   .hero h1 { max-width: 12ch; }
 
-  .hero-content {
-    padding-top: 1.75rem;
-    padding-bottom: 7rem;
-  }
-
   .site-header {
     background: linear-gradient(180deg, rgba(255,255,255,.98), rgba(250,245,236,.94));
   }
@@ -1010,17 +1009,14 @@ button { font: inherit; }
   .container { width: min(calc(100% - 1.2rem), var(--max)); }
   .section { padding: 8rem 0; }
   .header-inner { min-height: 80px; }
-  .hero-home {
-	  min-height: calc(100svh - var(--header));
-	  min-height: calc(100dvh - var(--header));
-	}
-   .hero {
-	  min-height: auto;
-	}
-  .hero-content {
-    padding-top: 1.5rem;
-    padding-bottom: 8.5rem;
+ .hero-content {
+	 margin-left:25px;
+ }
+  .hero-home .hero-content {
+    display: flex;
+    flex-direction: column;
   }
+  .hero h1 { font-size: clamp(2.5rem, 8vw, 6.5rem); }
   .short-hero { min-height: 26rem; }
   .mini-hero { min-height: 14rem; }
   .button { width: 100%; }
