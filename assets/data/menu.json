@@ -1,0 +1,379 @@
+{
+  "restaurant": "Mykonos",
+  "categories": [
+    {
+      "sourceTitle": "Soup's",
+      "title": "Soups",
+      "slug": "soups",
+      "description": "Warm, comforting bowls with Greek character.",
+      "items": [
+        {
+          "name": "Avgelemono",
+          "description": "",
+          "price": "$7.99"
+        },
+        {
+          "name": "Lentil soup",
+          "description": "",
+          "price": "$6.99"
+        }
+      ]
+    },
+    {
+      "sourceTitle": "Salad's",
+      "title": "Salads",
+      "slug": "salads",
+      "description": "Fresh greens, Mediterranean ingredients, and bright flavor.",
+      "items": [
+        {
+          "name": "Otantik Yunan Salatası",
+          "description": "",
+          "price": "$14.99"
+        },
+        {
+          "name": "Mahi-Mahi Salad",
+          "description": "",
+          "price": "$20.99"
+        },
+        {
+          "name": "Mediterrranean Salmon Salad",
+          "description": "",
+          "price": "$21.99"
+        },
+        {
+          "name": "Side Salad",
+          "description": "",
+          "price": "$6.99"
+        },
+        {
+          "name": "Tabbouleh Salad",
+          "description": "",
+          "price": "$12.99"
+        }
+      ]
+    },
+    {
+      "sourceTitle": "mezzes",
+      "title": "Cold Mezzes",
+      "slug": "cold-mezzes",
+      "description": "Shareable spreads, vegetables, and chilled small plates.",
+      "items": [
+        {
+          "name": "Muhammara",
+          "description": "",
+          "price": "$9.99"
+        },
+        {
+          "name": "Agean Octopus Meze",
+          "description": "",
+          "price": "$16.99"
+        },
+        {
+          "name": "Artichokes in Olive Oil",
+          "description": "",
+          "price": "$13.99"
+        },
+        {
+          "name": "Avokado With Cheese",
+          "description": "",
+          "price": "$12.99"
+        },
+        {
+          "name": "Baba Gnahush",
+          "description": "",
+          "price": "$9.99"
+        },
+        {
+          "name": "Dolmades",
+          "description": "",
+          "price": "$9.99"
+        },
+        {
+          "name": "FireFeta With Pita",
+          "description": "",
+          "price": "$8.99"
+        },
+        {
+          "name": "Hummus With Pita",
+          "description": "",
+          "price": "$9.99"
+        },
+        {
+          "name": "Oil Olive Green Beans",
+          "description": "",
+          "price": "$13.99"
+        },
+        {
+          "name": "Shrimp Cocktail",
+          "description": "",
+          "price": "$14.99"
+        },
+        {
+          "name": "Tzatzaki With Pita",
+          "description": "",
+          "price": "$9.99"
+        },
+        {
+          "name": "Mykonos Signature Meze Platter",
+          "description": "",
+          "price": "$21.99"
+        }
+      ]
+    },
+    {
+      "sourceTitle": "hot mezzes",
+      "title": "Hot Mezzes",
+      "slug": "hot-mezzes",
+      "description": "Crisp, savory starters served warm and ready to share.",
+      "items": [
+        {
+          "name": "Spanakopita",
+          "description": "",
+          "price": "$10.99"
+        },
+        {
+          "name": "Calamari",
+          "description": "",
+          "price": "$14.99"
+        },
+        {
+          "name": "Shrimp & Cheese Clay Pot",
+          "description": "",
+          "price": "$18.99"
+        },
+        {
+          "name": "Falafel With Hummus",
+          "description": "",
+          "price": "$10.99"
+        },
+        {
+          "name": "Herb Zuccini Fritters",
+          "description": "",
+          "price": "$9.99"
+        }
+      ]
+    },
+    {
+      "sourceTitle": "main course",
+      "title": "Main Courses",
+      "slug": "main-courses",
+      "description": "Signature plates, grilled specialties, and house favorites.",
+      "items": [
+        {
+          "name": "Roested Lamp With Orza",
+          "description": "",
+          "price": "$32.99"
+        },
+        {
+          "name": "Aegean Lamb Kebab With Eggplant Cream",
+          "description": "",
+          "price": "$24.99"
+        },
+        {
+          "name": "Filet Mignon Kebab",
+          "description": "",
+          "price": "$32.99"
+        },
+        {
+          "name": "Chicken Kebab",
+          "description": "",
+          "price": "$22.99"
+        },
+        {
+          "name": "Aegean Moussaka",
+          "description": "",
+          "price": "$19.99"
+        },
+        {
+          "name": "Greek Meatball",
+          "description": "",
+          "price": "$21.99"
+        },
+        {
+          "name": "Gyro Plate",
+          "description": "",
+          "price": "$17.99"
+        },
+        {
+          "name": "Chicken Gyro Plate",
+          "description": "",
+          "price": "$17.99"
+        },
+        {
+          "name": "Grilled Salmon",
+          "description": "",
+          "price": "$21.99"
+        },
+        {
+          "name": "Grilled Mahi Mahi",
+          "description": "",
+          "price": "$21.99"
+        },
+        {
+          "name": "White Rice",
+          "description": "",
+          "price": "$5.99"
+        },
+        {
+          "name": "Handmade Chicken Tenders",
+          "description": "",
+          "price": "$14.99"
+        },
+        {
+          "name": "French Fries",
+          "description": "",
+          "price": "$5.99"
+        },
+        {
+          "name": "Mykonos Grilled Branzino",
+          "description": "",
+          "price": "$26.99"
+        },
+        {
+          "name": "Greek Pastitsio",
+          "description": "",
+          "price": "$21.99"
+        },
+        {
+          "name": "Vegatarain Plate",
+          "description": "",
+          "price": "$18.99"
+        },
+        {
+          "name": "Lunch Special",
+          "description": "",
+          "price": "$17.99"
+        }
+      ]
+    },
+    {
+      "sourceTitle": "desserts",
+      "title": "Desserts",
+      "slug": "desserts",
+      "description": "Classic sweets and house-finished treats.",
+      "items": [
+        {
+          "name": "Classic Espresso Tiramisu",
+          "description": "",
+          "price": "$8.99"
+        },
+        {
+          "name": "Oven Baked Rice Pudding",
+          "description": "",
+          "price": "$9.99"
+        },
+        {
+          "name": "Magnolia With Banana",
+          "description": "",
+          "price": "$9.99"
+        },
+        {
+          "name": "Magnolia With Strawberry",
+          "description": "",
+          "price": "$9.99"
+        },
+        {
+          "name": "Cherry Milk Pudding",
+          "description": "",
+          "price": "$9.99"
+        },
+        {
+          "name": "Baklava 2 Pieces",
+          "description": "",
+          "price": "$7.99"
+        },
+        {
+          "name": "Pistachio Carrot Slice Baklava With ice Cream",
+          "description": "",
+          "price": "$9.99"
+        },
+        {
+          "name": "Semolina Syrup Cookies 2 Pieces",
+          "description": "",
+          "price": "$6.99"
+        }
+      ]
+    },
+    {
+      "sourceTitle": "Soft Drinks",
+      "title": "Soft Drinks",
+      "slug": "soft-drinks",
+      "description": "Refreshers and familiar favorites.",
+      "items": [
+        {
+          "name": "Homemade Lemonade",
+          "description": "",
+          "price": "$3.75"
+        },
+        {
+          "name": "Homemade Icetea",
+          "description": "",
+          "price": "$3.75"
+        },
+        {
+          "name": "Pepsi",
+          "description": "",
+          "price": "$3.75"
+        },
+        {
+          "name": "Pepsi Zero",
+          "description": "",
+          "price": "$3.75"
+        },
+        {
+          "name": "Pepsi Diet",
+          "description": "",
+          "price": "$3.75"
+        },
+        {
+          "name": "Pink Lemonade",
+          "description": "",
+          "price": "$3.75"
+        },
+        {
+          "name": "Dr. Pepper",
+          "description": "",
+          "price": "$3.75"
+        },
+        {
+          "name": "Crush Orange",
+          "description": "",
+          "price": "$3.75"
+        }
+      ]
+    },
+    {
+      "sourceTitle": "Sandwich's",
+      "title": "Sandwiches",
+      "slug": "sandwiches",
+      "description": "Gyros, plates, and handheld favorites with Mediterranean flavor.",
+      "items": [
+        {
+          "name": "Gyro Burger",
+          "description": "",
+          "price": "$14.99"
+        },
+        {
+          "name": "Gyro Sandwich Plate",
+          "description": "",
+          "price": "$16.99"
+        },
+        {
+          "name": "Chicken Gyro Sandwich Plate",
+          "description": "",
+          "price": "$15.99"
+        },
+        {
+          "name": "Falafel Sandwich Plate",
+          "description": "",
+          "price": "$15.99"
+        },
+        {
+          "name": "Keftehakia Sandwich Plate",
+          "description": "",
+          "price": "$16.99"
+        }
+      ]
+    }
+  ]
+}
