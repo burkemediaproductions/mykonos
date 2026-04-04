@@ -66,7 +66,8 @@ function renderChipNav(nav, categories) {
   }).join('');
 }
 
-function renderMenu(root, categories) {
+function renderMenu(root, categories, options = {}) {
+  const { isPreview = false } = options;
   root.innerHTML = categories.map((category) => `
     <section class="menu-section-card reveal" id="${escapeHtml(category.slug)}" aria-labelledby="${escapeHtml(category.slug)}-title">
       <div class="menu-section-head">
@@ -83,22 +84,41 @@ function renderMenu(root, categories) {
           const schemaPrice = priceValue(item.price);
 
           return `
-            <article class="menu-item-card" itemscope itemtype="https://schema.org/MenuItem">
-              <div class="menu-item-copy">
-                <h3 itemprop="name">${escapeHtml(item.name)}</h3>
-                ${item.description ? `<p itemprop="description">${escapeHtml(item.description)}</p>` : ''}
-              </div>
-              ${visiblePrice ? `
-                <p class="menu-item-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                  <meta itemprop="priceCurrency" content="USD">
-                  <span itemprop="price">${escapeHtml(schemaPrice)}</span>
-                  <span aria-hidden="true">${escapeHtml(visiblePrice)}</span>
-                </p>
-              ` : ''}
-            </article>
+<article class="menu-item-card${item.image ? ' has-image' : ' no-image'}" itemscope itemtype="https://schema.org/MenuItem">
+                ${item.image ? `
+                  <div class="menu-item-media">
+                    <img
+                      src="${escapeHtml(item.image)}"
+                      alt="${escapeHtml(item.imageAlt || item.name)}"
+                      loading="lazy"
+                      decoding="async"
+                    >
+                  </div>
+                ` : ''}
+
+                <div class="menu-item-body">
+                  <div class="menu-item-copy">
+                    <h3 itemprop="name">${escapeHtml(item.name)}</h3>
+                    ${item.description ? `<p itemprop="description">${escapeHtml(item.description)}</p>` : ''}
+                  </div>
+
+                  ${visiblePrice ? `
+                    <p class="menu-item-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                      <meta itemprop="priceCurrency" content="USD">
+                      <span itemprop="price">${escapeHtml(schemaPrice)}</span>
+                      <span aria-hidden="true">${escapeHtml(visiblePrice)}</span>
+                    </p>
+                  ` : ''}
+                </div>
+              </article>
           `;
         }).join('')}
       </div>
+      ${isPreview ? `
+        <div class="menu-preview-footer">
+          <a class="text-link" href="/menu/">View full menu</a>
+        </div>
+      ` : ''}
     </section>
   `).join('');
 }
@@ -125,8 +145,16 @@ async function loadMenus() {
   if (!categoriesLookUsable(categories)) return;
 
   roots.forEach((root) => {
+    const isPreview = root.id === 'home-menu-root';
     const outputCategories = limitCategories(categories, root);
-    renderMenu(root, outputCategories);
+
+    if (isPreview) {
+      root.classList.add('menu-preview-mode');
+    } else {
+      root.classList.remove('menu-preview-mode');
+    }
+
+    renderMenu(root, outputCategories, { isPreview });
   });
 
   document.querySelectorAll('[data-menu-chip-nav]').forEach((nav) => {

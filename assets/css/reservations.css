@@ -1,0 +1,152 @@
+:root {
+  --bg: #f5f2ea;
+  --surface: rgba(255,255,255,.92);
+  --text: #24211c;
+  --muted: #665f53;
+  --olive: #667a36;
+  --olive-deep: #435322;
+  --gold: #c69a2d;
+  --border: rgba(36,33,28,.12);
+  --radius: 24px;
+  --shadow: 0 18px 50px rgba(0,0,0,.12);
+  --max: 920px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.reservation-page {
+  padding: 40px 16px 80px;
+}
+
+.reservation-shell {
+  width: min(100%, var(--max));
+  margin: 0 auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: clamp(20px, 3vw, 36px);
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  font-size: .8rem;
+  font-weight: 800;
+  color: var(--olive);
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(2.5rem, 5vw, 4.25rem);
+  line-height: .95;
+}
+
+.intro {
+  margin: 0 0 24px;
+  color: var(--muted);
+  max-width: 60ch;
+}
+
+.reservation-form {
+  display: grid;
+  gap: 18px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+label {
+  display: grid;
+  gap: 8px;
+  font-weight: 600;
+}
+
+label span {
+  font-size: .95rem;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: #fff;
+  color: var(--text);
+  font: inherit;
+  padding: 14px 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.notes {
+  display: grid;
+  gap: 8px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.checkbox input {
+  width: 18px;
+  height: 18px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+button[type="submit"] {
+  border: 0;
+  border-radius: 999px;
+  padding: 14px 22px;
+  font: inherit;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--gold), #e2c36b);
+  color: #241a05;
+  cursor: pointer;
+}
+
+button[type="submit"]:disabled {
+  opacity: .6;
+  cursor: wait;
+}
+
+.status {
+  margin: 0;
+  color: var(--olive-deep);
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

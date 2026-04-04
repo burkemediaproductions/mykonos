@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.6",
+    "@supabase/supabase-js": "^2.101.1",
+    "twilio": "^5.13.1"
+  }
+}
