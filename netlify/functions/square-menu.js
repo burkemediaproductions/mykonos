@@ -74,14 +74,14 @@ do {
           });
         }
 
-        if (obj.type === 'ITEM' && obj.item_data) {
+        if (obj.type === 'ITEM' && obj.item_data && !obj.is_deleted) {
           items.push(obj);
         }
       }
 
       for (const item of items) {
         const itemData = item.item_data || {};
-
+        if (itemData.is_archived) continue;
         if (itemData.product_type === 'APPOINTMENTS_SERVICE') continue;
         const hasPrice = itemData.variations?.some(v =>
           v.item_variation_data?.price_money?.amount
