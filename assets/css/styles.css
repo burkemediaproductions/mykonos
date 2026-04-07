@@ -972,6 +972,46 @@ button { font: inherit; }
   flex-wrap: wrap;
 }
 .social-nav.social-nav-footer {margin:auto;max-width:100%;} 
+.site-credit {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.site-credit-label {
+  color: var(--white);
+}
+
+.site-credit-link {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.site-credit-logo {
+  display: block;
+  height: auto;
+  max-width: 180px;
+  width: 100%;
+  opacity: 0.96;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.site-credit-link:hover .site-credit-logo,
+.site-credit-link:focus-visible .site-credit-logo {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+.site-credit-link:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 4px;
+  border-radius: 6px;
+}
 .reveal {
   opacity: 0;
   transform: translateY(20px);
