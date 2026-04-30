@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="/assets/css/reservations-page-simple.css">
+  <link rel="stylesheet" href="/assets/css/reservations.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -224,7 +224,8 @@
             <p class="intro">Fill out the details below and we’ll text and email a confirmation.</p>
           </div>
 
-<form name="reservation" id="reservation-form" class="reservation-form" novalidate netlify>
+<form name="reservation" id="reservation-form" class="reservation-form" method="POST" data-netlify="true" netlify novalidate>
+  <input type="hidden" name="form-name" value="reservation">
         <div class="grid">
           <label>
             <span>First name</span>
