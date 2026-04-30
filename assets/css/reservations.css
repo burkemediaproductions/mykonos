@@ -251,3 +251,140 @@
     padding: 1rem;
   }
 }
+
+/* Simpler contact-style reservation hero + polished form overrides */
+.reservations-simple-hero {
+  min-height: 18rem;
+}
+
+.reservations-simple-hero-content {
+  min-height: 0;
+  margin-left: 0;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.reservations-simple-hero .button-row {
+  margin-top: 1.5rem;
+}
+
+.reservations-simple-hero .button-secondary {
+  border-color: rgba(255,255,255,.22);
+  background: rgba(255,255,255,.08);
+  color: #fff;
+}
+
+.reservations-intro {
+  padding-top: 4rem;
+}
+
+.reservation-shell {
+  background: linear-gradient(180deg, rgba(255,255,255,.97), rgba(250,247,240,.94));
+  border-color: rgba(36,33,28,.1);
+}
+
+.reservation-header {
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid rgba(36,33,28,.09);
+}
+
+.reservation-form {
+  gap: 1.25rem;
+}
+
+.reservation-form .grid {
+  gap: 1rem 1.1rem;
+}
+
+.reservation-form label {
+  position: relative;
+}
+
+.reservation-form label span {
+  color: var(--olive-deep);
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.reservation-form input,
+.reservation-form select,
+.reservation-form textarea {
+  border-radius: 18px;
+  border: 1px solid rgba(36,33,28,.12);
+  background: #fff;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.6), 0 10px 26px rgba(36,33,28,.045);
+}
+
+.reservation-form select {
+  appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--olive-deep) 50%),
+    linear-gradient(135deg, var(--olive-deep) 50%, transparent 50%);
+  background-position:
+    calc(100% - 1.15rem) 50%,
+    calc(100% - .8rem) 50%;
+  background-size: .38rem .38rem, .38rem .38rem;
+  background-repeat: no-repeat;
+  padding-right: 2.25rem;
+}
+
+.reservation-form .notes textarea {
+  min-height: 9rem;
+  line-height: 1.55;
+}
+
+.reservation-form .checkbox {
+  padding: .9rem 1rem;
+  border: 1px solid rgba(36,33,28,.09);
+  border-radius: 18px;
+  background: rgba(102,122,54,.06);
+}
+
+.reservation-form .checkbox span {
+  color: var(--text);
+  font-size: .95rem;
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: 700;
+}
+
+.reservation-form .actions {
+  justify-content: space-between;
+  padding-top: .75rem;
+  border-top: 1px solid rgba(36,33,28,.09);
+}
+
+.reservation-form button[type="submit"] {
+  min-width: 14rem;
+  box-shadow: 0 12px 26px rgba(198,154,45,.2);
+}
+
+.reservation-info-card {
+  background: linear-gradient(180deg, rgba(255,255,255,.98), rgba(250,247,240,.94));
+}
+
+.reservation-info-card .pill {
+  color: var(--olive-deep);
+}
+
+@media (max-width: 640px) {
+  .reservations-simple-hero {
+    min-height: 15.5rem;
+  }
+
+  .reservations-simple-hero-content {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 4rem;
+  }
+
+  .reservations-simple-hero h1 {
+    max-width: none;
+  }
+
+  .reservation-header h2 {
+    font-size: clamp(2.1rem, 12vw, 3rem);
+  }
+}

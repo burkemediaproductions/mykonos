@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="/assets/css/reservations-page.css">
+  <link rel="stylesheet" href="/assets/css/reservations-page-simple.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -203,14 +203,11 @@
   </header>
   <main id="main-content">
 
-    <section class="hero hero-home section-dark short-hero reservations-hero">
-      <video id="hero-experience" class="hero-video" autoplay muted loop playsinline webkit-playsinline preload="none" poster="/assets/video/FullRestaraunt-horizontal.jpg" aria-hidden="true"></video>
-      <div class="hero-overlay"></div>
-      <div class="hero-ornament" aria-hidden="true"></div>
-      <div class="container hero-content reservations-hero-content reveal">
+    <section class="hero hero-simple section-dark reservations-simple-hero">
+      <div class="container hero-simple-content reservations-simple-hero-content reveal">
         <p class="eyebrow">Reservations &amp; Ordering</p>
-        <h1>Reserve a table, order ahead, or bring Mykonos home.</h1>
-        <p class="hero-copy">Plan your visit to Mykonos at The River in Rancho Mirage, request a table, or connect with your favorite ordering app for pickup and delivery.</p>
+        <h1>Reserve a table at Mykonos.</h1>
+        <p class="hero-copy">Request your table, plan your visit at The River, or order Mykonos for pickup and delivery.</p>
         <div class="button-row">
           <a class="button button-primary" href="#reservation-form">Request a Reservation</a>
           <a class="button button-secondary" href="#online-ordering">Order Online</a>
@@ -218,34 +215,13 @@
       </div>
     </section>
 
-<div class="section-divider divider-to-light" aria-hidden="true">
-      <svg viewBox="0 0 1440 104" preserveAspectRatio="none" focusable="false">
-        <path d="M0,52 C160,104 270,4 460,34 C660,66 792,96 1008,42 C1198,-6 1294,88 1440,30 L1440,104 L0,104 Z"></path>
-        <g class="vine-vignette vine-left">
-          <path class="vine-stem" d="M148 18 C118 26 106 38 98 56 C90 74 78 84 56 92"></path>
-          <ellipse class="vine-leaf leaf-olive" cx="118" cy="32" rx="18" ry="7" transform="rotate(-22 118 32)"></ellipse>
-          <ellipse class="vine-leaf leaf-sage" cx="103" cy="47" rx="15" ry="6" transform="rotate(-40 103 47)"></ellipse>
-          <ellipse class="vine-leaf leaf-gold" cx="86" cy="64" rx="13" ry="5" transform="rotate(-56 86 64)"></ellipse>
-          <circle class="vine-olive" cx="122" cy="20" r="5"></circle>
-        </g>
-        <g class="vine-vignette vine-right">
-          <path class="vine-stem" d="M1292 18 C1322 26 1334 38 1342 56 C1350 74 1362 84 1384 92"></path>
-          <ellipse class="vine-leaf leaf-olive" cx="1322" cy="32" rx="18" ry="7" transform="rotate(22 1322 32)"></ellipse>
-          <ellipse class="vine-leaf leaf-sage" cx="1337" cy="47" rx="15" ry="6" transform="rotate(40 1337 47)"></ellipse>
-          <ellipse class="vine-leaf leaf-gold" cx="1354" cy="64" rx="13" ry="5" transform="rotate(56 1354 64)"></ellipse>
-          <circle class="vine-olive" cx="1318" cy="20" r="5"></circle>
-        </g>
-      </svg>
-    </div>
-
-    <section class="section section-light reservations-intro parallax-shell">
-      <div class="parallax-bg" style="background-image:url('/assets/img/about-texture.jpg')"></div>
+    <section class="section section-light reservations-intro">
       <div class="container reservations-layout">
-        <article class="reservation-shell reveal vine-frame">
+        <article class="reservation-shell reveal">
           <div class="reservation-header">
             <p class="eyebrow">Reserve a Table</p>
-            <h2>Book your table at Mykonos.</h2>
-            <p class="intro">Submit your reservation request and we’ll text and email a confirmation.</p>
+            <h2>Reservation request</h2>
+            <p class="intro">Fill out the details below and we’ll text and email a confirmation.</p>
           </div>
 
 <form name="reservation" id="reservation-form" class="reservation-form" novalidate netlify>
