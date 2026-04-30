@@ -8,12 +8,12 @@
   <meta name="theme-color" content="#667a36">
   <meta name="msapplication-TileColor" content="#667a36">
   <meta name="robots" content="index,follow,max-image-preview:large">
-  <link rel="canonical" href="https://www.mykonosgreekfood.com/">
+  <link rel="canonical" href="https://www.mykonosgreekfood.com/reservations/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Reservations & Ordering | Mykonos Rancho Mirage">
   <meta property="og:description" content="Plan a visit to Mykonos with reservation details, hours, location, and online ordering links.">
   <meta property="og:site_name" content="Mykonos">
-  <meta property="og:url" content="https://www.mykonosgreekfood.com/">
+  <meta property="og:url" content="https://www.mykonosgreekfood.com/reservations/">
   <meta property="og:image" content="https://www.mykonosgreekfood.com/assets/img/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -32,7 +32,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/reservations.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/reservations-page.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -96,7 +97,7 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.mykonosgreekfood.com/reservations.html#webpage",
+      "@id": "https://www.mykonosgreekfood.com/reservations/#webpage",
       "url": "https://www.mykonosgreekfood.com/",
       "name": "Reservations & Ordering",
       "description": "Reserve a table at Mykonos or connect to DoorDash, Grubhub, and Uber Eats for online ordering in Rancho Mirage.",
@@ -130,17 +131,124 @@
   </script>
 </head>
 <body>
-  <main class="reservation-page">
-    <section class="reservation-shell">
-      <div class="reservation-header">
-        <p class="eyebrow">Reserve a Table</p>
-        <h1>Book your table at Mykonos</h1>
-        <p class="intro">
-          Submit your reservation request and we’ll text and email a confirmation.
-        </p>
-      </div>
 
-      <form name="reservation" id="reservation-form" class="reservation-form" novalidate netlify>
+<a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="Mykonos home">
+        <img class="brand-logo" src="/assets/img/brand/MykonosModernGreekRanchoMirage.png" alt="Mykonos Modern Greek Mediterranean logo" width="300" height="120">
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li class="has-dropdown">
+            <button type="button" aria-expanded="false" aria-controls="dropdown-story" data-dropdown-button>Discover</button>
+            <ul class="dropdown" id="dropdown-story">
+              <li><a href="/about/">About</a></li>
+              <li><a href="/experience/">Experience</a></li>
+              <li><a href="/faq/">FAQ</a></li>
+            </ul>
+          </li>
+          <li><a href="/menu/">Menu</a></li>
+          <li class="has-dropdown">
+            <button type="button" aria-expanded="false" aria-controls="dropdown-visit" data-dropdown-button>Visit</button>
+            <ul class="dropdown" id="dropdown-visit">
+              <li><a href="/reservations/">Reservations &amp; Ordering</a></li>
+              <li><a href="/contact/">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <nav class="social-nav social-nav-header" aria-label="Social media">
+          <a class="social-link " href="https://instagram.com/mykonosgreekranchomirage" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9Zm9.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" fill="currentColor"/></svg><span class="sr-only">Instagram</span></a>
+          <a class="social-link " href="https://www.facebook.com/mykonosgreekfood" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.7-1.6H17V4.8c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5V11H7v3h3v8h3.5Z" fill="currentColor"/></svg><span class="sr-only">Facebook</span></a>
+          <a class="social-link " href="https://youtube.com/@mykonosgreekfood" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.7 12 4.7 12 4.7s-5.9 0-7.6.5a2.8 2.8 0 0 0-2 2A29.8 29.8 0 0 0 2 12a29.8 29.8 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.5 7.6.5 7.6.5s5.9 0 7.6-.5a2.8 2.8 0 0 0 2-2A29.8 29.8 0 0 0 22 12a29.8 29.8 0 0 0-.4-4.8ZM10 15.5v-7l6 3.5-6 3.5Z" fill="currentColor"/></svg><span class="sr-only">YouTube</span></a>
+        </nav>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu" data-menu-toggle>
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile" aria-hidden="true" hidden>
+      <div class="mobile-menu-backdrop" data-menu-close></div>
+      <div class="mobile-menu-panel" role="dialog" aria-modal="true" aria-label="Site menu">
+        <button class="menu-close" type="button" aria-label="Close menu" data-menu-close>
+          <span aria-hidden="true">×</span>
+        </button>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/experience/">Experience</a></li>
+          <li><a href="/menu/">Menu</a></li>
+          <li><a href="/faq/">FAQ</a></li>
+          <li><a href="/reservations/">Reservations &amp; Ordering</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+        <nav class="social-nav social-nav-mobile" aria-label="Mobile social media">
+          <a class="social-link " href="https://instagram.com/mykonosgreekranchomirage" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9Zm9.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" fill="currentColor"/></svg><span class="sr-only">Instagram</span></a>
+          <a class="social-link " href="https://www.facebook.com/mykonosgreekfood" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.7-1.6H17V4.8c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5V11H7v3h3v8h3.5Z" fill="currentColor"/></svg><span class="sr-only">Facebook</span></a>
+          <a class="social-link " href="https://youtube.com/@mykonosgreekfood" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.7 12 4.7 12 4.7s-5.9 0-7.6.5a2.8 2.8 0 0 0-2 2A29.8 29.8 0 0 0 2 12a29.8 29.8 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.5 7.6.5 7.6.5s5.9 0 7.6-.5a2.8 2.8 0 0 0 2-2A29.8 29.8 0 0 0 22 12a29.8 29.8 0 0 0-.4-4.8ZM10 15.5v-7l6 3.5-6 3.5Z" fill="currentColor"/></svg><span class="sr-only">YouTube</span></a>
+        </nav>
+        <div class="mobile-menu-legal">
+          <a href="/privacy/">Privacy Policy</a>
+          <a href="/terms/">Terms of Service</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main id="main-content">
+
+    <section class="hero hero-home section-dark short-hero reservations-hero">
+      <video id="hero-experience" class="hero-video" autoplay muted loop playsinline webkit-playsinline preload="none" poster="/assets/video/FullRestaraunt-horizontal.jpg" aria-hidden="true"></video>
+      <div class="hero-overlay"></div>
+      <div class="hero-ornament" aria-hidden="true"></div>
+      <div class="container hero-content reservations-hero-content reveal">
+        <p class="eyebrow">Reservations &amp; Ordering</p>
+        <h1>Reserve a table, order ahead, or bring Mykonos home.</h1>
+        <p class="hero-copy">Plan your visit to Mykonos at The River in Rancho Mirage, request a table, or connect with your favorite ordering app for pickup and delivery.</p>
+        <div class="button-row">
+          <a class="button button-primary" href="#reservation-form">Request a Reservation</a>
+          <a class="button button-secondary" href="#online-ordering">Order Online</a>
+        </div>
+      </div>
+    </section>
+
+<div class="section-divider divider-to-light" aria-hidden="true">
+      <svg viewBox="0 0 1440 104" preserveAspectRatio="none" focusable="false">
+        <path d="M0,52 C160,104 270,4 460,34 C660,66 792,96 1008,42 C1198,-6 1294,88 1440,30 L1440,104 L0,104 Z"></path>
+        <g class="vine-vignette vine-left">
+          <path class="vine-stem" d="M148 18 C118 26 106 38 98 56 C90 74 78 84 56 92"></path>
+          <ellipse class="vine-leaf leaf-olive" cx="118" cy="32" rx="18" ry="7" transform="rotate(-22 118 32)"></ellipse>
+          <ellipse class="vine-leaf leaf-sage" cx="103" cy="47" rx="15" ry="6" transform="rotate(-40 103 47)"></ellipse>
+          <ellipse class="vine-leaf leaf-gold" cx="86" cy="64" rx="13" ry="5" transform="rotate(-56 86 64)"></ellipse>
+          <circle class="vine-olive" cx="122" cy="20" r="5"></circle>
+        </g>
+        <g class="vine-vignette vine-right">
+          <path class="vine-stem" d="M1292 18 C1322 26 1334 38 1342 56 C1350 74 1362 84 1384 92"></path>
+          <ellipse class="vine-leaf leaf-olive" cx="1322" cy="32" rx="18" ry="7" transform="rotate(22 1322 32)"></ellipse>
+          <ellipse class="vine-leaf leaf-sage" cx="1337" cy="47" rx="15" ry="6" transform="rotate(40 1337 47)"></ellipse>
+          <ellipse class="vine-leaf leaf-gold" cx="1354" cy="64" rx="13" ry="5" transform="rotate(56 1354 64)"></ellipse>
+          <circle class="vine-olive" cx="1318" cy="20" r="5"></circle>
+        </g>
+      </svg>
+    </div>
+
+    <section class="section section-light reservations-intro parallax-shell">
+      <div class="parallax-bg" style="background-image:url('/assets/img/about-texture.jpg')"></div>
+      <div class="container reservations-layout">
+        <article class="reservation-shell reveal vine-frame">
+          <div class="reservation-header">
+            <p class="eyebrow">Reserve a Table</p>
+            <h2>Book your table at Mykonos.</h2>
+            <p class="intro">Submit your reservation request and we’ll text and email a confirmation.</p>
+          </div>
+
+<form name="reservation" id="reservation-form" class="reservation-form" novalidate netlify>
         <div class="grid">
           <label>
             <span>First name</span>
@@ -219,14 +327,159 @@
           <p class="status" id="form-status" aria-live="polite"></p>
         </div>
       </form>
+        </article>
+
+        <aside class="reservation-sidebar reveal" aria-label="Reservation details">
+          <div class="reservation-info-card">
+            <span class="pill">Visit</span>
+            <h3>Mykonos at The River</h3>
+            <ul class="contact-list">
+              <li>71800 CA-111, Suite A122<br>Rancho Mirage, CA 92270</li>
+              <li><a href="tel:14422825105">(442) 282-5105</a></li>
+              <li>Open daily · 10:30 AM – 10:00 PM</li>
+            </ul>
+            <div class="button-stack">
+              <a class="button button-primary" href="https://maps.google.com/?q=Mykonos+Modern+Greek+Mediterranean+Rancho+Mirage" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+              <a class="button button-secondary" href="/contact/">Contact Us</a>
+            </div>
+          </div>
+
+          <div class="reservation-info-card reservation-note-card">
+            <span class="pill">Good to know</span>
+            <h3>Planning your visit</h3>
+            <p>For larger parties or special requests, include a note with your reservation request or call the restaurant directly.</p>
+          </div>
+        </aside>
+      </div>
     </section>
+
+<div class="section-divider divider-to-dark" aria-hidden="true">
+      <svg viewBox="0 0 1440 104" preserveAspectRatio="none" focusable="false">
+        <path d="M0,52 C160,104 270,4 460,34 C660,66 792,96 1008,42 C1198,-6 1294,88 1440,30 L1440,104 L0,104 Z"></path>
+        <g class="vine-vignette vine-left">
+          <path class="vine-stem" d="M148 18 C118 26 106 38 98 56 C90 74 78 84 56 92"></path>
+          <ellipse class="vine-leaf leaf-olive" cx="118" cy="32" rx="18" ry="7" transform="rotate(-22 118 32)"></ellipse>
+          <ellipse class="vine-leaf leaf-sage" cx="103" cy="47" rx="15" ry="6" transform="rotate(-40 103 47)"></ellipse>
+          <ellipse class="vine-leaf leaf-gold" cx="86" cy="64" rx="13" ry="5" transform="rotate(-56 86 64)"></ellipse>
+          <circle class="vine-olive" cx="122" cy="20" r="5"></circle>
+        </g>
+        <g class="vine-vignette vine-right">
+          <path class="vine-stem" d="M1292 18 C1322 26 1334 38 1342 56 C1350 74 1362 84 1384 92"></path>
+          <ellipse class="vine-leaf leaf-olive" cx="1322" cy="32" rx="18" ry="7" transform="rotate(22 1322 32)"></ellipse>
+          <ellipse class="vine-leaf leaf-sage" cx="1337" cy="47" rx="15" ry="6" transform="rotate(40 1337 47)"></ellipse>
+          <ellipse class="vine-leaf leaf-gold" cx="1354" cy="64" rx="13" ry="5" transform="rotate(56 1354 64)"></ellipse>
+          <circle class="vine-olive" cx="1318" cy="20" r="5"></circle>
+        </g>
+      </svg>
+    </div>
+
+    <section class="section section-dark home-reserve-order" id="online-ordering">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Order online</p>
+          <h2>Pickup and delivery through the apps guests already use.</h2>
+          <p>Order ahead for pickup or get Greek Mediterranean favorites delivered through DoorDash, Grubhub, or Uber Eats.</p>
+        </div>
+
+        <div class="reserve-order-grid reservations-order-grid">
+          <article class="reserve-order-card reveal">
+            <span class="pill">Pickup</span>
+            <h3>Order ahead for pickup</h3>
+            <p>Skip the wait and place an order in advance for convenient pickup.</p>
+            <div class="button-stack">
+              <a class="button button-secondary" href="https://www.doordash.com/store/mykonos-kalimera-modern-mediterranean-rancho-mirage-41827817" target="_blank" rel="noopener noreferrer">Order Pickup on DoorDash</a>
+              <a class="button button-secondary" href="https://www.grubhub.com/restaurant/mykonos-modern-greek-mediterranean-71800-ca-111-ste-a122-rancho-mirage/14304056" target="_blank" rel="noopener noreferrer">Order Pickup on Grubhub</a>
+              <a class="button button-secondary" href="https://www.ubereats.com/store/mykonos-modern-greek-mediterranena/j0SAEuiuQxO3K8SbiV0bPg?srsltid=AfmBOoqQ5HGCyE-pORsOffeVy9PRVKLSV1bwfCokG7jBjxsD0c6W5MJP" target="_blank" rel="noopener noreferrer">Order Pickup on Uber Eats</a>
+            </div>
+          </article>
+
+          <article class="reserve-order-card reveal">
+            <span class="pill">Delivery</span>
+            <h3>Get it delivered</h3>
+            <p>Send Greek Mediterranean favorites straight to your door through the major delivery apps.</p>
+            <div class="delivery-app-list" aria-label="Delivery app choices">
+              <a class="delivery-app" href="https://www.doordash.com/store/mykonos-kalimera-modern-mediterranean-rancho-mirage-41827817" target="_blank" rel="noopener noreferrer"><strong>DoorDash</strong><span>Fast local delivery</span></a>
+              <a class="delivery-app" href="https://www.grubhub.com/restaurant/mykonos-modern-greek-mediterranean-71800-ca-111-ste-a122-rancho-mirage/14304056" target="_blank" rel="noopener noreferrer"><strong>Grubhub</strong><span>Easy ordering flow</span></a>
+              <a class="delivery-app" href="https://www.ubereats.com/store/mykonos-modern-greek-mediterranena/j0SAEuiuQxO3K8SbiV0bPg?srsltid=AfmBOoqQ5HGCyE-pORsOffeVy9PRVKLSV1bwfCokG7jBjxsD0c6W5MJP" target="_blank" rel="noopener noreferrer"><strong>Uber Eats</strong><span>Popular app choice</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
   </main>
 
+<footer class="site-footer">  
+    <div class="container footer-grid">
+      <div>
+        <a class="footer-brand" href="/">
+          <img class="footer-logo" src="/assets/img/brand/logo-white.png" alt="Mykonos Modern Greek Mediterranean logo" width="320" height="128">
+        </a>
+        <p>Modern Greek Mediterranean dining rooted in family hospitality, fresh meza, and a lively Rancho Mirage atmosphere.</p>
+        <nav class="social-nav social-nav-footer" aria-label="Footer social media">
+          <a class="social-link " href="https://instagram.com/mykonosgreekranchomirage" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9Zm9.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" fill="currentColor"/></svg><span class="sr-only">Instagram</span></a>
+          <a class="social-link " href="https://www.facebook.com/mykonosgreekfood" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.7-1.6H17V4.8c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5V11H7v3h3v8h3.5Z" fill="currentColor"/></svg><span class="sr-only">Facebook</span></a>
+          <a class="social-link " href="https://youtube.com/@mykonosgreekfood" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.7 12 4.7 12 4.7s-5.9 0-7.6.5a2.8 2.8 0 0 0-2 2A29.8 29.8 0 0 0 2 12a29.8 29.8 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.5 7.6.5 7.6.5s5.9 0 7.6-.5a2.8 2.8 0 0 0 2-2A29.8 29.8 0 0 0 22 12a29.8 29.8 0 0 0-.4-4.8ZM10 15.5v-7l6 3.5-6 3.5Z" fill="currentColor"/></svg><span class="sr-only">YouTube</span></a>
+      </nav>
+
+        <div class="review-links" aria-label="Review and discovery links">
+          <a class="social-link social-link-review" href="https://www.google.com/maps/place/?q=place_id:ChIJoyj8Svj92oAR1c6JqDB_VjY" target="_blank" rel="noopener noreferrer" aria-label="Google Business"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.8 12.2c0-.7-.1-1.3-.2-1.9H12v3.6h5.5a4.7 4.7 0 0 1-2 3.1v2.6h3.2c1.9-1.8 3.1-4.4 3.1-7.4Z" fill="currentColor"/><path d="M12 22c2.7 0 5-.9 6.7-2.4l-3.2-2.6c-.9.6-2 .9-3.5.9-2.7 0-5-1.8-5.8-4.3H2.9v2.7A10 10 0 0 0 12 22Z" fill="currentColor"/><path d="M6.2 13.6A6 6 0 0 1 5.9 12c0-.6.1-1.1.3-1.6V7.7H2.9A10 10 0 0 0 2 12c0 1.6.4 3.2.9 4.3l3.3-2.7Z" fill="currentColor"/><path d="M12 6.1c1.5 0 2.8.5 3.8 1.5l2.8-2.8A10 10 0 0 0 2.9 7.7l3.3 2.7C7 7.9 9.3 6.1 12 6.1Z" fill="currentColor"/></svg><span class="social-link-text">Google Business</span></a>
+          <a class="social-link social-link-review" href="https://www.yelp.com/biz/mykonos-modern-greek-mediterranean-rancho-mirage" target="_blank" rel="noopener noreferrer" aria-label="Yelp"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.961 22.279c0.246-0.273 0.601-0.444 0.995-0.444 0.739 0 1.338 0.599 1.338 1.338 0 0.016-0 0.032-0.001 0.048l0-0.002-0.237 6.483c-0.027 0.719-0.616 1.293-1.34 1.293-0.077 0-0.153-0.006-0.226-0.019l0.008 0.001c-1.763-0.303-3.331-0.962-4.69-1.902l0.039 0.025c-0.351-0.245-0.578-0.647-0.578-1.102 0-0.346 0.131-0.661 0.346-0.898l-0.001 0.001 4.345-4.829zM12.853 20.434l-6.301 1.572c-0.097 0.025-0.208 0.039-0.322 0.039-0.687 0-1.253-0.517-1.332-1.183l-0.001-0.006c-0.046-0.389-0.073-0.839-0.073-1.295 0-1.324 0.223-2.597 0.635-3.781l-0.024 0.081c0.183-0.534 0.681-0.911 1.267-0.911 0.214 0 0.417 0.050 0.596 0.14l-0.008-0.004 5.833 2.848c0.45 0.221 0.754 0.677 0.754 1.203 0 0.623-0.427 1.147-1.004 1.294l-0.009 0.002zM13.924 15.223l-6.104-10.574c-0.112-0.191-0.178-0.421-0.178-0.667 0-0.529 0.307-0.987 0.752-1.204l0.008-0.003c1.918-0.938 4.153-1.568 6.511-1.761l0.067-0.004c0.031-0.003 0.067-0.004 0.104-0.004 0.738 0 1.337 0.599 1.337 1.337 0 0.001 0 0.001 0 0.002v-0 12.207c-0 0.739-0.599 1.338-1.338 1.338-0.493 0-0.923-0.266-1.155-0.663l-0.003-0.006zM19.918 20.681l6.176 2.007c0.541 0.18 0.925 0.682 0.925 1.274 0 0.209-0.048 0.407-0.134 0.584l0.003-0.008c-0.758 1.569-1.799 2.889-3.068 3.945l-0.019 0.015c-0.23 0.19-0.527 0.306-0.852 0.306-0.477 0-0.896-0.249-1.134-0.625l-0.003-0.006-3.449-5.51c-0.128-0.201-0.203-0.446-0.203-0.709 0-0.738 0.598-1.336 1.336-1.336 0.147 0 0.289 0.024 0.421 0.068l-0.009-0.003zM26.197 16.742l-6.242 1.791c-0.11 0.033-0.237 0.052-0.368 0.052-0.737 0-1.335-0.598-1.335-1.335 0-0.282 0.087-0.543 0.236-0.758l-0.003 0.004 3.63-5.383c0.244-0.358 0.65-0.59 1.111-0.59 0.339 0 0.649 0.126 0.885 0.334l-0.001-0.001c1.25 1.104 2.25 2.459 2.925 3.99l0.029 0.073c0.070 0.158 0.111 0.342 0.111 0.535 0 0.608-0.405 1.121-0.959 1.286l-0.009 0.002z"/></svg><span class="social-link-text">Yelp</span></a>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="footer-title">Visit</h2>
+        <ul>
+          <li>71800 CA-111, Suite A122, Rancho Mirage, CA 92270</li>
+          <li><a href="tel:14422825105">(442) 282-5105</a></li>
+          <li>Every day · 10:30 AM – 10:00 PM</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="footer-title">Explore</h2>
+        <ul>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/experience/">Experience</a></li>
+          <li><a href="/menu/">Menu</a></li>
+          <li><a href="/faq/">FAQ</a></li>
+          <li><a href="/reservations/">Reservations &amp; Ordering</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Mykonos. All rights reserved.</p>
+      <nav aria-label="Legal">
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/terms/">Terms of Service</a>
+      </nav>
+
+	  <p class="site-credit">
+		  <span class="site-credit-label">Powered by</span>
+		  <a
+			href="https://burkemedia.pro/"
+			target="_blank"
+			rel="noopener noreferrer"
+			aria-label="Powered by BurkeMedia Productions, opens BurkeMedia Productions website in a new tab"
+			class="site-credit-link"
+		  >
+			<img
+			  src="/assets/img/burkemedia-productions-logo.webp"
+			  alt="BurkeMedia Productions"
+			  class="site-credit-logo"
+			  width="180"
+			  height="40"
+			  loading="lazy"
+			  decoding="async"
+			>
+		  </a>
+		</p>
+
+    </div>
+  </footer>
   <script src="/assets/js/reservations.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
 </body>
 </html>
-
-
-
-
