@@ -1,8 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('reservation-form');
   const dateInput = document.querySelector('input[name="reservation_date"]');
   const timeSelect = document.querySelector('select[name="reservation_time"]');
-
-  if (!dateInput || !timeSelect) return;
+  const submitButton = document.getElementById('submit-button');
+  const status = document.getElementById('form-status');
 
   const OPEN_HOUR = 10;
   const OPEN_MINUTE = 30;
@@ -35,6 +36,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function populateTimes() {
+    if (!dateInput || !timeSelect) return;
+
     const selectedDate = dateInput.value;
     const today = new Date();
     const todayValue = toDateValue(today);
@@ -79,13 +82,52 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  const today = new Date();
-  const todayValue = toDateValue(today);
+  if (dateInput && timeSelect) {
+    const todayValue = toDateValue(new Date());
+    dateInput.min = todayValue;
+    if (!dateInput.value) dateInput.value = todayValue;
+    populateTimes();
+    dateInput.addEventListener('change', populateTimes);
+  }
 
-  dateInput.min = todayValue;
-  dateInput.value = todayValue;
+  function encodeFormData(formElement) {
+    return new URLSearchParams(new FormData(formElement)).toString();
+  }
 
-  populateTimes();
+  if (form) {
+    form.addEventListener('submit', async (event) => {
+      if (!form.checkValidity()) return;
+      event.preventDefault();
 
-  dateInput.addEventListener('change', populateTimes);
+      const firstName = (form.querySelector('[name="first_name"]')?.value || '').trim();
+      const thankYouUrl = `/reservations/thank-you/${firstName ? `?name=${encodeURIComponent(firstName)}` : ''}`;
+
+      try {
+        sessionStorage.setItem('reservationFirstName', firstName);
+      } catch (error) {
+        // Ignore storage errors and continue with the query string fallback.
+      }
+
+      if (submitButton) {
+        submitButton.disabled = true;
+        submitButton.textContent = 'Sending...';
+      }
+      if (status) status.textContent = 'Sending your reservation request...';
+
+      try {
+        await fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: encodeFormData(form)
+        });
+        window.location.href = thankYouUrl;
+      } catch (error) {
+        if (status) status.textContent = 'There was a problem sending your request. Please try again or call (442) 282-5105.';
+        if (submitButton) {
+          submitButton.disabled = false;
+          submitButton.textContent = 'Request reservation';
+        }
+      }
+    });
+  }
 });

@@ -3,26 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Reservations & Ordering | Mykonos</title>
-  <meta name="description" content="Reserve a table at Mykonos or connect to DoorDash, Grubhub, and Uber Eats for online ordering in Rancho Mirage.">
+  <title>Thank You for Your Reservation | Mykonos</title>
+  <meta name="description" content="Thank you for requesting a reservation at Mykonos in Rancho Mirage.">
   <meta name="theme-color" content="#667a36">
   <meta name="msapplication-TileColor" content="#667a36">
   <meta name="robots" content="index,follow,max-image-preview:large">
-  <link rel="canonical" href="https://www.mykonosgreekfood.com/reservations/">
+  <link rel="canonical" href="https://www.mykonosgreekfood.com/reservations/thank-you/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Reservations & Ordering | Mykonos Rancho Mirage">
-  <meta property="og:description" content="Plan a visit to Mykonos with reservation details, hours, location, and online ordering links.">
+  <meta property="og:title" content="Thank You for Your Reservation | Mykonos Rancho Mirage">
+  <meta property="og:description" content="Your reservation request has been received by Mykonos in Rancho Mirage.">
   <meta property="og:site_name" content="Mykonos">
-  <meta property="og:url" content="https://www.mykonosgreekfood.com/reservations/">
+  <meta property="og:url" content="https://www.mykonosgreekfood.com/reservations/thank-you/">
   <meta property="og:image" content="https://www.mykonosgreekfood.com/assets/img/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Mykonos reservations and ordering page preview">
+  <meta property="og:image:alt" content="Mykonos reservation thank you page preview">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Reservations & Ordering | Mykonos Rancho Mirage">
-  <meta name="twitter:description" content="Plan a visit to Mykonos with reservation details, hours, location, and online ordering links.">
+  <meta name="twitter:title" content="Thank You for Your Reservation | Mykonos Rancho Mirage">
+  <meta name="twitter:description" content="Your reservation request has been received by Mykonos in Rancho Mirage.">
   <meta name="twitter:image" content="https://www.mykonosgreekfood.com/assets/img/og-image.jpg">
-  <meta name="twitter:image:alt" content="Mykonos reservations and ordering page preview">
+  <meta name="twitter:image:alt" content="Mykonos reservation thank you page preview">
   <link rel="icon" href="/assets/img/favicon/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
@@ -97,10 +97,10 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.mykonosgreekfood.com/reservations/#webpage",
+      "@id": "https://www.mykonosgreekfood.com/reservations/thank-you/#webpage",
       "url": "https://www.mykonosgreekfood.com/",
       "name": "Reservations & Ordering",
-      "description": "Reserve a table at Mykonos or connect to DoorDash, Grubhub, and Uber Eats for online ordering in Rancho Mirage.",
+      "description": "Thank you for requesting a reservation at Mykonos in Rancho Mirage.",
       "isPartOf": {
         "@id": "https://www.mykonosgreekfood.com/#website"
       },
@@ -203,189 +203,30 @@
   </header>
   <main id="main-content">
 
-    <section class="hero hero-simple section-dark reservations-simple-hero">
+    <section class="hero hero-simple section-dark reservations-simple-hero thank-you-hero">
       <div class="container hero-simple-content reservations-simple-hero-content reveal">
-        <p class="eyebrow">Reservations &amp; Ordering</p>
-        <h1>Reserve a table at Mykonos.</h1>
-        <p class="hero-copy">Request your table, plan your visit at The River, or order Mykonos for pickup and delivery.</p>
-        <div class="button-row">
-          <a class="button button-primary" href="#reservation-form">Request a Reservation</a>
-          <a class="button button-secondary" href="#online-ordering">Order Online</a>
-        </div>
+        <p class="eyebrow">Reservation Request Received</p>
+        <h1>Thank you for your reservation.</h1>
+        <p class="hero-copy">We’re looking forward to welcoming you to Mykonos at The River in Rancho Mirage.</p>
       </div>
     </section>
 
-    <section class="section section-light reservations-intro">
-      <div class="container reservations-layout">
-        <article class="reservation-shell reveal">
-          <div class="reservation-header">
-            <p class="eyebrow">Reserve a Table</p>
-            <h2>Reservation request</h2>
-            <p class="intro">Fill out the details below and we’ll text and email a confirmation.</p>
+    <section class="section section-light thank-you-section">
+      <div class="container thank-you-layout">
+        <article class="thank-you-card reveal">
+          <div class="thank-you-icon" aria-hidden="true">✓</div>
+          <p class="eyebrow">Thank you</p>
+          <h2>Thank you<span id="guest-name-output"></span> for your reservation!</h2>
+          <p class="thank-you-copy">We will be in touch with you about details. Please call <a href="tel:14422825105">(442) 282-5105</a> if you have any questions.</p>
+          <div class="button-row thank-you-actions">
+            <a class="button button-primary" href="/menu/">View the Menu</a>
+            <a class="button button-secondary" href="/contact/">Contact Mykonos</a>
           </div>
-
-<form name="reservation" id="reservation-form" class="reservation-form" method="POST" action="/reservations/thank-you/" data-netlify="true" netlify novalidate>
-        <input type="hidden" name="form-name" value="reservation">
-        <div class="grid">
-          <label>
-            <span>First name</span>
-            <input type="text" name="first_name" required maxlength="60">
-          </label>
-
-          <label>
-            <span>Last name</span>
-            <input type="text" name="last_name" required maxlength="60">
-          </label>
-
-          <label>
-            <span>Email</span>
-            <input type="email" name="email" required maxlength="120">
-          </label>
-
-          <label>
-            <span>Phone</span>
-            <input type="tel" name="phone" required maxlength="25" placeholder="+1 760 555 1234">
-          </label>
-
-          <label>
-            <span>Date</span>
-            <input type="date" name="reservation_date" required>
-          </label>
-
-          <label>
-            <span>Time</span>
-            <select name="reservation_time" required>
-              <option value="">Select a time</option>
-            </select>
-          </label>
-
-          <label>
-            <span>Party size</span>
-            <select name="party_size" required>
-              <option value="">Select party size</option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10">10</option>
-            </select>
-          </label>
-
-          <label>
-            <span>Occasion</span>
-            <select name="occasion">
-              <option value="">Optional</option>
-              <option value="birthday">Birthday</option>
-              <option value="anniversary">Anniversary</option>
-              <option value="date-night">Date night</option>
-              <option value="business">Business</option>
-              <option value="other">Other</option>
-            </select>
-          </label>
-        </div>
-
-        <label class="notes">
-          <span>Notes</span>
-          <textarea name="notes" rows="5" maxlength="600" placeholder="High chair, accessibility note, outdoor preference, etc."></textarea>
-        </label>
-
-        <label class="checkbox">
-          <input type="checkbox" name="sms_opt_in" value="yes" checked>
-          <span>Text me reservation updates</span>
-        </label>
-
-        <div class="actions">
-          <button type="submit" id="submit-button">Request reservation</button>
-          <p class="status" id="form-status" aria-live="polite"></p>
-        </div>
-      </form>
         </article>
-
-        <aside class="reservation-sidebar reveal" aria-label="Reservation details">
-          <div class="reservation-info-card">
-            <span class="pill">Visit</span>
-            <h3>Mykonos at The River</h3>
-            <ul class="contact-list">
-              <li>71800 CA-111, Suite A122<br>Rancho Mirage, CA 92270</li>
-              <li><a href="tel:14422825105">(442) 282-5105</a></li>
-              <li>Open daily · 10:30 AM – 10:00 PM</li>
-            </ul>
-            <div class="button-stack">
-              <a class="button button-primary" href="https://maps.google.com/?q=Mykonos+Modern+Greek+Mediterranean+Rancho+Mirage" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
-              <a class="button button-secondary" href="/contact/">Contact Us</a>
-            </div>
-          </div>
-
-          <div class="reservation-info-card reservation-note-card">
-            <span class="pill">Good to know</span>
-            <h3>Planning your visit</h3>
-            <p>For larger parties or special requests, include a note with your reservation request or call the restaurant directly.</p>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-<div class="section-divider divider-to-dark" aria-hidden="true">
-      <svg viewBox="0 0 1440 104" preserveAspectRatio="none" focusable="false">
-        <path d="M0,52 C160,104 270,4 460,34 C660,66 792,96 1008,42 C1198,-6 1294,88 1440,30 L1440,104 L0,104 Z"></path>
-        <g class="vine-vignette vine-left">
-          <path class="vine-stem" d="M148 18 C118 26 106 38 98 56 C90 74 78 84 56 92"></path>
-          <ellipse class="vine-leaf leaf-olive" cx="118" cy="32" rx="18" ry="7" transform="rotate(-22 118 32)"></ellipse>
-          <ellipse class="vine-leaf leaf-sage" cx="103" cy="47" rx="15" ry="6" transform="rotate(-40 103 47)"></ellipse>
-          <ellipse class="vine-leaf leaf-gold" cx="86" cy="64" rx="13" ry="5" transform="rotate(-56 86 64)"></ellipse>
-          <circle class="vine-olive" cx="122" cy="20" r="5"></circle>
-        </g>
-        <g class="vine-vignette vine-right">
-          <path class="vine-stem" d="M1292 18 C1322 26 1334 38 1342 56 C1350 74 1362 84 1384 92"></path>
-          <ellipse class="vine-leaf leaf-olive" cx="1322" cy="32" rx="18" ry="7" transform="rotate(22 1322 32)"></ellipse>
-          <ellipse class="vine-leaf leaf-sage" cx="1337" cy="47" rx="15" ry="6" transform="rotate(40 1337 47)"></ellipse>
-          <ellipse class="vine-leaf leaf-gold" cx="1354" cy="64" rx="13" ry="5" transform="rotate(56 1354 64)"></ellipse>
-          <circle class="vine-olive" cx="1318" cy="20" r="5"></circle>
-        </g>
-      </svg>
-    </div>
-
-    <section class="section section-dark home-reserve-order" id="online-ordering">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Order online</p>
-          <h2>Pickup and delivery through the apps guests already use.</h2>
-          <p>Order ahead for pickup or get Greek Mediterranean favorites delivered through DoorDash, Grubhub, or Uber Eats.</p>
-        </div>
-
-        <div class="reserve-order-grid reservations-order-grid">
-          <article class="reserve-order-card reveal">
-            <span class="pill">Pickup</span>
-            <h3>Order ahead for pickup</h3>
-            <p>Skip the wait and place an order in advance for convenient pickup.</p>
-            <div class="button-stack">
-              <a class="button button-secondary" href="https://www.doordash.com/store/mykonos-kalimera-modern-mediterranean-rancho-mirage-41827817" target="_blank" rel="noopener noreferrer">Order Pickup on DoorDash</a>
-              <a class="button button-secondary" href="https://www.grubhub.com/restaurant/mykonos-modern-greek-mediterranean-71800-ca-111-ste-a122-rancho-mirage/14304056" target="_blank" rel="noopener noreferrer">Order Pickup on Grubhub</a>
-              <a class="button button-secondary" href="https://www.ubereats.com/store/mykonos-modern-greek-mediterranena/j0SAEuiuQxO3K8SbiV0bPg?srsltid=AfmBOoqQ5HGCyE-pORsOffeVy9PRVKLSV1bwfCokG7jBjxsD0c6W5MJP" target="_blank" rel="noopener noreferrer">Order Pickup on Uber Eats</a>
-            </div>
-          </article>
-
-          <article class="reserve-order-card reveal">
-            <span class="pill">Delivery</span>
-            <h3>Get it delivered</h3>
-            <p>Send Greek Mediterranean favorites straight to your door through the major delivery apps.</p>
-            <div class="delivery-app-list" aria-label="Delivery app choices">
-              <a class="delivery-app" href="https://www.doordash.com/store/mykonos-kalimera-modern-mediterranean-rancho-mirage-41827817" target="_blank" rel="noopener noreferrer"><strong>DoorDash</strong><span>Fast local delivery</span></a>
-              <a class="delivery-app" href="https://www.grubhub.com/restaurant/mykonos-modern-greek-mediterranean-71800-ca-111-ste-a122-rancho-mirage/14304056" target="_blank" rel="noopener noreferrer"><strong>Grubhub</strong><span>Easy ordering flow</span></a>
-              <a class="delivery-app" href="https://www.ubereats.com/store/mykonos-modern-greek-mediterranena/j0SAEuiuQxO3K8SbiV0bPg?srsltid=AfmBOoqQ5HGCyE-pORsOffeVy9PRVKLSV1bwfCokG7jBjxsD0c6W5MJP" target="_blank" rel="noopener noreferrer"><strong>Uber Eats</strong><span>Popular app choice</span></a>
-            </div>
-          </article>
-        </div>
       </div>
     </section>
 
   </main>
-
 <footer class="site-footer">  
     <div class="container footer-grid">
       <div>
@@ -456,7 +297,7 @@
 
     </div>
   </footer>
-  <script src="/assets/js/reservations.js" defer></script>
+  <script src="/assets/js/reservation-thank-you.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
 </body>
 </html>
