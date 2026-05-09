@@ -1424,6 +1424,41 @@ body.menu-open { overflow: hidden; }
   display: block;
 }
 */
+/* START: DELETE THIS WHEN PHOTOS ARE LIVE */
+article.menu-item-card.has-image img {
+    display: none;
+}
+
+.menu-item-card.has-image {
+  display: block;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid rgba(36,33,28,.08);
+  background: linear-gradient(180deg, rgba(255,255,255,.72), rgba(255,255,255,.42));
+}
+
+.menu-item-card.has-image .menu-item-body {
+  display: grid;
+  gap: .65rem;
+}
+
+.menu-item-card.has-image .menu-item-price {
+  text-align: left;
+  font-size: 1.05rem;
+}
+
+.menu-item-card.has-image .menu-item-copy h3 {
+  margin-bottom: .35rem;
+}
+
+.menu-item-card.has-image .menu-item-copy p {
+  max-width: 52ch;
+}
+
+
+/* STOP  */
+
+
+
 
 .menu-item-body {
   display: flex;
