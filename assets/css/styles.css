@@ -1398,6 +1398,7 @@ body.menu-open { overflow: hidden; }
   clip: rect(0,0,0,0);
 }
 
+/*
 .menu-item-card.has-image {
   display: grid;
   grid-template-columns: 180px minmax(0, 1fr);
@@ -1422,6 +1423,7 @@ body.menu-open { overflow: hidden; }
   object-fit: cover;
   display: block;
 }
+*/
 
 .menu-item-body {
   display: flex;
