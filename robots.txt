@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.mykonosranchomirage.com/sitemap.xml
+
+Sitemap: https://mykonosgreekfood.com/sitemap.xml

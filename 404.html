@@ -4,25 +4,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>404 | Mykonos</title>
-  <meta name="description" content="Page not found on the Mykonos website.">
+  <meta name="description" content="The page you are looking for could not be found on the Mykonos website.">
   <meta name="theme-color" content="#667a36">
   <meta name="msapplication-TileColor" content="#667a36">
   <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="https://www.mykonosgreekfood.com/">
+  <link rel="canonical" href="https://mykonosgreekfood.com/404.html">
   <meta property="og:type" content="website">
   <meta property="og:title" content="404 | Mykonos">
-  <meta property="og:description" content="Page not found on the Mykonos website.">
+  <meta property="og:description" content="The page you are looking for could not be found on the Mykonos website.">
   <meta property="og:site_name" content="Mykonos">
-  <meta property="og:url" content="https://www.mykonosgreekfood.com/">
-  <meta property="og:image" content="https://www.mykonosgreekfood.com/assets/img/og-image.jpg">
+  <meta property="og:url" content="https://mykonosgreekfood.com/404.html">
+  <meta property="og:image" content="https://mykonosgreekfood.com/assets/img/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Mykonos 404 page preview">
+  <meta property="og:image:alt" content="404 | Mykonos social preview">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="404 | Mykonos">
-  <meta name="twitter:description" content="Page not found on the Mykonos website.">
-  <meta name="twitter:image" content="https://www.mykonosgreekfood.com/assets/img/og-image.jpg">
-  <meta name="twitter:image:alt" content="Mykonos 404 page preview">
+  <meta name="twitter:description" content="The page you are looking for could not be found on the Mykonos website.">
+  <meta name="twitter:image" content="https://mykonosgreekfood.com/assets/img/og-image.jpg">
+  <meta name="twitter:image:alt" content="404 | Mykonos social preview">
   <link rel="icon" href="/assets/img/favicon/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
@@ -39,15 +39,23 @@
   "@graph": [
     {
       "@type": "Restaurant",
-      "@id": "https://www.mykonosgreekfood.com/#restaurant",
+      "@id": "https://mykonosgreekfood.com/#restaurant",
       "name": "Mykonos",
-      "url": "https://www.mykonosgreekfood.com",
+      "url": "https://mykonosgreekfood.com/",
+      "description": "Mykonos is a modern Greek Mediterranean restaurant in Rancho Mirage, California, serving fresh meza, authentic gyros, Greek favorites, shareable plates, and warm family hospitality at The River.",
+      "telephone": "+1-442-282-5105",
       "servesCuisine": [
         "Greek",
         "Mediterranean"
       ],
-      "description": "Modern Greek Mediterranean restaurant in Rancho Mirage centered on fresh meza, real gyros, family hospitality, and a warm all-day dining atmosphere.",
-      "telephone": "+1-442-282-5105",
+      "priceRange": "$$",
+      "acceptsReservations": true,
+      "menu": "https://mykonosgreekfood.com/menu/",
+      "image": "https://mykonosgreekfood.com/assets/img/og-image.jpg",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://mykonosgreekfood.com/assets/img/brand/logo-horizontal.png"
+      },
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "71800 CA-111, Suite A122",
@@ -72,39 +80,57 @@
           "closes": "22:00"
         }
       ],
-      "acceptsReservations": true,
-      "priceRange": "$$",
-      "menu": "https://www.mykonosgreekfood.com/",
-      "sameAs": [],
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.mykonosgreekfood.com/assets/img/brand/logo-horizontal.png"
-      }
+      "openingHours": [
+        "Mo-Su 10:30-22:00"
+      ],
+      "areaServed": [
+        "Rancho Mirage",
+        "Palm Desert",
+        "Palm Springs",
+        "Coachella Valley"
+      ],
+      "sameAs": [
+        "https://www.facebook.com/mykonosgreekfood",
+        "https://instagram.com/mykonosgreekranchomirage",
+        "https://youtube.com/@mykonosgreekfood"
+      ],
+      "potentialAction": [
+        {
+          "@type": "ReserveAction",
+          "target": "https://mykonosgreekfood.com/reservations/"
+        }
+      ]
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.mykonosgreekfood.com/#website",
-      "url": "https://www.mykonosgreekfood.com",
-      "name": "Mykonos"
+      "@id": "https://mykonosgreekfood.com/#website",
+      "url": "https://mykonosgreekfood.com/",
+      "name": "Mykonos",
+      "publisher": {
+        "@id": "https://mykonosgreekfood.com/#restaurant"
+      }
     },
     {
       "@type": "ImageObject",
-      "@id": "https://www.mykonosgreekfood.com/#primaryimage",
-      "url": "https://www.mykonosgreekfood.com/assets/img/og-image.jpg",
-      "contentUrl": "https://www.mykonosgreekfood.com/assets/img/og-image.jpg",
-      "name": "Mykonos social image"
+      "@id": "https://mykonosgreekfood.com/#primaryimage",
+      "url": "https://mykonosgreekfood.com/assets/img/og-image.jpg",
+      "contentUrl": "https://mykonosgreekfood.com/assets/img/og-image.jpg",
+      "name": "Mykonos Greek Mediterranean restaurant in Rancho Mirage"
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.mykonosgreekfood.com/404.html#webpage",
-      "url": "https://www.mykonosgreekfood.com/",
+      "@id": "https://mykonosgreekfood.com/404.html/#webpage",
+      "url": "https://mykonosgreekfood.com/404.html",
       "name": "404",
-      "description": "Page not found on the Mykonos website.",
+      "description": "The page you are looking for could not be found on the Mykonos website.",
       "isPartOf": {
-        "@id": "https://www.mykonosgreekfood.com/#website"
+        "@id": "https://mykonosgreekfood.com/#website"
       },
       "about": {
-        "@id": "https://www.mykonosgreekfood.com/#restaurant"
+        "@id": "https://mykonosgreekfood.com/#restaurant"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://mykonosgreekfood.com/#primaryimage"
       },
       "inLanguage": "en-US"
     },
@@ -115,13 +141,13 @@
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.mykonosgreekfood.com/"
+          "item": "https://mykonosgreekfood.com/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "404",
-          "item": "https://www.mykonosgreekfood.com/"
+          "item": "https://mykonosgreekfood.com/404.html"
         }
       ]
     }
