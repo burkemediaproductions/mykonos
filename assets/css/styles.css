@@ -1991,3 +1991,26 @@ article.menu-item-card.has-image img {
 	padding-left:25px;
  }
  }
+
+/* Static Square menu SEO/AIO output */
+.menu-item-count {
+  margin-top: .35rem;
+  font-size: .86rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: rgba(44, 38, 28, .62);
+}
+.menu-item-modifiers {
+  margin-top: .65rem;
+  font-size: .85rem;
+  font-weight: 700;
+  color: var(--olive-dark);
+}
+.menu-item-card.no-image h4 {
+  margin: 0 0 .45rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+  line-height: 1.1;
+  color: var(--olive-dark);
+}

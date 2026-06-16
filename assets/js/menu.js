@@ -100,6 +100,7 @@ function renderMenu(root, categories, options = {}) {
                   <div class="menu-item-copy">
                     <h3 itemprop="name">${escapeHtml(item.name)}</h3>
                     ${item.description ? `<p itemprop="description">${escapeHtml(item.description)}</p>` : ''}
+                    ${renderModifiers(item)}
                   </div>
 
                   ${visiblePrice ? `
