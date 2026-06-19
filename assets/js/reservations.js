@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const submitButton = document.getElementById('submit-button');
   const status = document.getElementById('form-status');
 
-  const OPEN_HOUR = 10;
-  const OPEN_MINUTE = 30;
-  const LAST_HOUR = 21;
+  const OPEN_HOUR = 11;
+  const OPEN_MINUTE = 0;
+  const LAST_HOUR = 20;
   const LAST_MINUTE = 30;
   const INTERVAL_MINUTES = 15;
   const SAME_DAY_NOTICE_MINUTES = 60;

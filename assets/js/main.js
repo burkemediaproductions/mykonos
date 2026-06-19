@@ -396,3 +396,43 @@ function debounce(fn, wait = 150) {
     timeout = setTimeout(() => fn.apply(this, args), wait);
   };
 }
+
+// Randomized 5-star review rotator for the homepage.
+document.addEventListener('DOMContentLoaded', () => {
+  const rotator = document.querySelector('[data-review-rotator]');
+  if (!rotator) return;
+
+  const slides = Array.from(rotator.querySelectorAll('[data-review-slide]'));
+  if (!slides.length) return;
+
+  let currentIndex = Math.floor(Math.random() * slides.length);
+  let timer = null;
+
+  function showSlide(index) {
+    currentIndex = (index + slides.length) % slides.length;
+    slides.forEach((slide, slideIndex) => {
+      const active = slideIndex === currentIndex;
+      slide.classList.toggle('is-active', active);
+      slide.setAttribute('aria-hidden', active ? 'false' : 'true');
+    });
+  }
+
+  function nextSlide() { showSlide(currentIndex + 1); }
+  function previousSlide() { showSlide(currentIndex - 1); }
+  function restartTimer() {
+    if (timer) window.clearInterval(timer);
+    timer = window.setInterval(nextSlide, 7000);
+  }
+
+  const nextButton = rotator.querySelector('[data-review-next]');
+  const prevButton = rotator.querySelector('[data-review-prev]');
+
+  nextButton?.addEventListener('click', () => { nextSlide(); restartTimer(); });
+  prevButton?.addEventListener('click', () => { previousSlide(); restartTimer(); });
+
+  rotator.addEventListener('mouseenter', () => { if (timer) window.clearInterval(timer); });
+  rotator.addEventListener('mouseleave', restartTimer);
+
+  showSlide(currentIndex);
+  restartTimer();
+});
