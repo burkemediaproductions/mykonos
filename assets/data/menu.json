@@ -1,740 +1,1101 @@
 {
-  "restaurant": "Mykonos",
-  "source": "Square catalog export",
   "categories": [
     {
-      "sourceTitle": "Appetizers",
+      "id": "VB6SD3EZ34AFZIYJEONQTR44",
       "title": "Appetizers",
       "slug": "appetizers",
       "description": "Fresh Greek and Mediterranean appetizers, dips, spreads, and shareable starters.",
       "items": [
         {
-          "token": "52HPTBHAGAPGG6YKZ5CLA72S",
+          "token": "RDFJTRS4IMYYC3W7HX4BNWO2",
           "name": "Aegean Octopus Meze",
           "description": "Tender octopus with baby potatoes, dill, orange, oregano, parsley, spring onion, sun-dried tomatoes, capers, olive oil, and seasoning.",
-          "price": "21.99",
-          "displayPrice": "$21.99",
-          "seoTitle": "Aegean Octopus Meze | Mykonos Rancho Mirage",
-          "seoDescription": "Aegean Octopus Meze at Mykonos in Rancho Mirage: tender octopus with baby potatoes, dill, orange, oregano, parsley, spring onion, sun-dried tomatoes,...",
-          "modifiers": []
+          "price": "27.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Aegean Octopus Meze"
         },
         {
-          "token": "MVRD3EYLPIHBDIEV2EYVEUIA",
+          "token": "YE4HQ2WUAJLP47G5GMR6VEQQ",
           "name": "Artichokes in Olive Oil",
           "description": "Baby artichokes with carrots, potatoes, onion, peas, dill, lemon juice, and olive oil.",
           "price": "13.99",
-          "displayPrice": "$13.99",
-          "seoTitle": "Artichokes in Olive Oil | Mykonos Rancho Mirage",
-          "seoDescription": "Artichokes in Olive Oil at Mykonos in Rancho Mirage: baby artichokes with carrots, potatoes, onion, peas, dill, lemon juice, and olive oil.",
-          "modifiers": []
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Artichokes in Olive Oil"
         },
         {
-          "token": "7FUXJBON23LF22ZS3XVFKRQH",
+          "token": "J7X3RFVKIHUAVYB2N6PKCPIS",
           "name": "Avocado with Cheese",
           "description": "Avocado with olive oil, lemon juice, green onions, dill, feta cheese, and pine nuts.",
           "price": "12.99",
-          "displayPrice": "$12.99",
-          "seoTitle": "Avocado with Cheese | Mykonos Rancho Mirage",
-          "seoDescription": "Avocado with Cheese at Mykonos in Rancho Mirage: avocado with olive oil, lemon juice, green onions, dill, feta cheese, and pine nuts.",
-          "modifiers": []
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Avocado with Cheese"
         },
         {
-          "token": "YNBI5OWJUJUXP64BAVODQIZP",
+          "token": "XF7AC77OFTIVWXPSMAOOBUXT",
           "name": "Baba Ghanoush",
           "description": "Smoky roasted eggplant dip blended with tahini, garlic, lemon juice, olive oil, parsley, salt, and black pepper.",
-          "price": "9.99",
-          "displayPrice": "$9.99",
-          "seoTitle": "Baba Ghanoush | Mykonos Rancho Mirage",
-          "seoDescription": "Baba Ghanoush at Mykonos in Rancho Mirage: smoky roasted eggplant dip blended with tahini, garlic, lemon juice, olive oil, parsley, salt, and black pepper.",
-          "modifiers": []
+          "price": "12.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Baba Ghanoush"
         },
         {
-          "token": "5XALZQM3UXMI3WUNWVCHZRYN",
+          "token": "2XCP2UGOIQTMBY5B757V7JUR",
           "name": "Dolmades",
           "description": "Grape leaves stuffed with rice, onion, olive oil, lemon juice, and Mediterranean spices.",
-          "price": "9.99",
-          "displayPrice": "$9.99",
-          "seoTitle": "Dolmades | Mykonos Rancho Mirage",
-          "seoDescription": "Dolmades at Mykonos in Rancho Mirage: grape leaves stuffed with rice, onion, olive oil, lemon juice, and Mediterranean spices.",
-          "modifiers": []
+          "price": "12.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Dolmades"
         },
         {
-          "token": "DFFOIAFNJUNNN6HHKFMHPH7Q",
+          "token": "EFGGHF2JUBXUHTY6I6SFRTCT",
           "name": "Fire Feta with Pita",
           "description": "A spicy, creamy feta dip made with jalapeños and paprika, served with warm pita.",
-          "price": "9.99",
-          "displayPrice": "$9.99",
-          "seoTitle": "Fire Feta with Pita | Mykonos Rancho Mirage",
-          "seoDescription": "Fire Feta with Pita at Mykonos in Rancho Mirage: a spicy, creamy feta dip made with jalapeños and paprika, served with warm pita.",
-          "modifiers": []
+          "price": "12.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Fire Feta with Pita"
         },
         {
-          "token": "332XX4ZTMVPFTPTEZNRAIBSY",
-          "name": "Hummus with Pita",
-          "description": "Creamy hummus made with chickpeas, tahini, garlic, lemon juice, olive oil, salt, and cumin, served with warm pita.",
-          "price": "9.99",
-          "displayPrice": "$9.99",
-          "seoTitle": "Hummus with Pita | Mykonos Rancho Mirage",
-          "seoDescription": "Hummus with Pita at Mykonos in Rancho Mirage: creamy hummus made with chickpeas, tahini, garlic, lemon juice, olive oil, salt, and cumin, served with warm pita.",
-          "modifiers": []
-        },
-        {
-          "token": "5VKA3ZUDNOAJSTPZHRN6PIT7",
-          "name": "Muhammara",
-          "description": "Roasted red pepper and walnut dip with garlic, bread crumbs, pomegranate molasses, olive oil, lemon juice, cumin, and paprika.",
-          "price": "9.99",
-          "displayPrice": "$9.99",
-          "seoTitle": "Muhammara | Mykonos Rancho Mirage",
-          "seoDescription": "Muhammara at Mykonos in Rancho Mirage: roasted red pepper and walnut dip with garlic, bread crumbs, pomegranate molasses, olive oil, lemon juice, cumin, and...",
-          "modifiers": []
-        },
-        {
-          "token": "T4JX276TQH5LXXUKMVBTAD6A",
-          "name": "Mykonos Signature Meze Platter",
-          "description": "A shareable Greek Mediterranean platter with hummus, tzatziki, baba ghanoush, muhammara, dolmades, avocado with cheese, fire feta, green beans, and pita.",
-          "price": "21.99",
-          "displayPrice": "$21.99",
-          "seoTitle": "Mykonos Signature Meze Platter | Mykonos Rancho Mirage",
-          "seoDescription": "Mykonos Signature Meze Platter at Mykonos in Rancho Mirage: a shareable Greek Mediterranean platter with hummus, tzatziki, baba ghanoush, muhammara,...",
-          "modifiers": []
-        },
-        {
-          "token": "L3CXD5SL7LRJNUDOJKWRVGMM",
+          "token": "UQGZW4DGEJZAV6EHZCEBQFLL",
           "name": "Green Beans in Olive Oil",
           "description": "Green beans with onion, tomatoes, extra virgin olive oil, salt, and black pepper.",
           "price": "13.99",
-          "displayPrice": "$13.99",
-          "seoTitle": "Green Beans in Olive Oil | Mykonos Rancho Mirage",
-          "seoDescription": "Green Beans in Olive Oil at Mykonos in Rancho Mirage: green beans with onion, tomatoes, extra virgin olive oil, salt, and black pepper.",
-          "modifiers": []
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Green Beans in Olive Oil"
         },
         {
-          "token": "6SKBIRT4W27QJNWZRSLDIY3F",
+          "token": "BTAS6ULST2ANTJFQ5PJJ5T6O",
+          "name": "Hummus with Pita",
+          "description": "Creamy hummus made with chickpeas, tahini, garlic, lemon juice, olive oil, salt, and cumin, served with warm pita.",
+          "price": "12.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Hummus with Pita"
+        },
+        {
+          "token": "PRK5NE6DB6JQTJANDVPYFWLM",
+          "name": "Muhammara",
+          "description": "Roasted red pepper and walnut dip with garlic, bread crumbs, pomegranate molasses, olive oil, lemon juice, cumin, and paprika.",
+          "price": "12.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Muhammara"
+        },
+        {
+          "token": "Y5OXMYAHJ63ZUL3QYLARVLSZ",
+          "name": "Mykonos Signature Meze Platter",
+          "description": "A shareable Greek Mediterranean platter with hummus, tzatziki, baba ghanoush, muhammara, dolmades, avocado with cheese, fire feta, green beans, and pita.",
+          "price": "33.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Mykonos Signature Meze Platter"
+        },
+        {
+          "token": "P7XNZPBOUGKEEFOKK46F7HQM",
           "name": "Shrimp Cocktail",
           "description": "Fresh shrimp served with cocktail sauce, lemon, parsley, black pepper, and salt.",
           "price": "16.99",
-          "displayPrice": "$16.99",
-          "seoTitle": "Shrimp Cocktail | Mykonos Rancho Mirage",
-          "seoDescription": "Shrimp Cocktail at Mykonos in Rancho Mirage: fresh shrimp served with cocktail sauce, lemon, parsley, black pepper, and salt.",
-          "modifiers": []
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Shrimp Cocktail"
         },
         {
-          "token": "5NZAJ6M6YAEMTHLFWTTMOQCP",
+          "token": "HSEURDNHDFPFM5H72PAOX4PN",
           "name": "Tzatziki with Pita",
           "description": "Greek yogurt dip with cucumber, garlic, olive oil, lemon, and dill, served with warm pita.",
-          "price": "9.99",
-          "displayPrice": "$9.99",
-          "seoTitle": "Tzatziki with Pita | Mykonos Rancho Mirage",
-          "seoDescription": "Tzatziki with Pita at Mykonos in Rancho Mirage: greek yogurt dip with cucumber, garlic, olive oil, lemon, and dill, served with warm pita.",
-          "modifiers": []
+          "price": "10.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Tzatziki with Pita"
         }
       ]
     },
     {
-      "sourceTitle": "Hot Mezes",
+      "id": "SPB6Q7TGSROWEBJFXPTAUP5D",
       "title": "Hot Mezes",
       "slug": "hot-mezes",
       "description": "Warm Greek mezes and Mediterranean small plates made for sharing.",
       "items": [
         {
-          "token": "77XWJFISJMH6QCO4KIGNTPP7",
+          "token": "6MLB7677RQITW7HOKM7GBQ73",
           "name": "Calamari",
           "description": "Crispy fried squid served with fresh lemon and dipping sauce.",
           "price": "16.99",
-          "displayPrice": "$16.99",
-          "seoTitle": "Calamari | Mykonos Rancho Mirage",
-          "seoDescription": "Calamari at Mykonos in Rancho Mirage: crispy fried squid served with fresh lemon and dipping sauce.",
-          "modifiers": []
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Calamari"
         },
         {
-          "token": "CODPDPJHMGDHEHJ35ZAYPVAU",
+          "token": "33SDRMNOCQVCHULXBULRH2MK",
           "name": "Falafel with Hummus",
           "description": "Crispy falafel made with chickpeas, garlic, onion, and spices, served with creamy hummus.",
-          "price": "12.99",
-          "displayPrice": "$12.99",
-          "seoTitle": "Falafel with Hummus | Mykonos Rancho Mirage",
-          "seoDescription": "Falafel with Hummus at Mykonos in Rancho Mirage: crispy falafel made with chickpeas, garlic, onion, and spices, served with creamy hummus.",
-          "modifiers": []
+          "price": "17.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Falafel with Hummus"
         },
         {
-          "token": "I4AQWVZRNAPMJK5B6ZPJMXEA",
+          "token": "YHWWZTLCM5FIFPTPPE2V4X7Y",
+          "name": "Greek Shrimp & Cheese",
+          "description": "Shrimp baked with tomatoes, green peppers, butter, garlic, parsley, black pepper, salt, and cheese.",
+          "price": "23.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Greek Shrimp & Cheese"
+        },
+        {
+          "token": "ZDUTQTQO2PSHLO7V2J5NZ3IZ",
           "name": "Herb Zucchini Fritters",
           "description": "Crispy zucchini fritters with fresh herbs, served with yogurt sauce.",
-          "price": "9.99",
-          "displayPrice": "$9.99",
-          "seoTitle": "Herb Zucchini Fritters | Mykonos Rancho Mirage",
-          "seoDescription": "Herb Zucchini Fritters at Mykonos in Rancho Mirage: crispy zucchini fritters with fresh herbs, served with yogurt sauce.",
-          "modifiers": []
+          "price": "12.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Herb Zucchini Fritters"
         },
         {
-          "token": "CDUQOHYT2DF744L5CIE4FZLV",
-          "name": "Shrimp and Cheese Clay Pot",
-          "description": "Shrimp baked with tomatoes, green peppers, butter, garlic, parsley, black pepper, salt, and cheese.",
-          "price": "18.99",
-          "displayPrice": "$18.99",
-          "seoTitle": "Shrimp and Cheese Clay Pot | Mykonos Rancho Mirage",
-          "seoDescription": "Shrimp and Cheese Clay Pot at Mykonos in Rancho Mirage: shrimp baked with tomatoes, green peppers, butter, garlic, parsley, black pepper, salt, and cheese.",
-          "modifiers": []
-        },
-        {
-          "token": "FUBNY462AS3ELNBEBYUYP35R",
+          "token": "2BLVIHZSYOJFH52ZDLCEEFUL",
           "name": "Spanakopita",
           "description": "Spinach, feta cheese, and herbs baked in crispy phyllo pastry.",
-          "price": "10.99",
-          "displayPrice": "$10.99",
-          "seoTitle": "Spanakopita | Mykonos Rancho Mirage",
-          "seoDescription": "Spanakopita at Mykonos in Rancho Mirage: spinach, feta cheese, and herbs baked in crispy phyllo pastry.",
-          "modifiers": []
+          "price": "12.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Spanakopita"
         },
         {
-          "token": "MI26DXBQ4CLJOF5WLTGR7SVS",
+          "token": "XETOGC56DRZAYQOMHZHLLXJM",
           "name": "White Rice",
           "description": "Fluffy white rice cooked in savory beef broth with butter for rich flavor.",
-          "price": "5.99",
-          "displayPrice": "$5.99",
-          "seoTitle": "White Rice | Mykonos Rancho Mirage",
-          "seoDescription": "White Rice at Mykonos in Rancho Mirage: fluffy white rice cooked in savory beef broth with butter for rich flavor.",
-          "modifiers": []
+          "price": "7.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "White Rice"
         }
       ]
     },
     {
-      "sourceTitle": "Soups",
+      "id": "YPTVV35C3MH45AFHJOUAFCRP",
       "title": "Soups",
       "slug": "soups",
       "description": "Comforting Greek and Mediterranean soups served fresh.",
       "items": [
         {
-          "token": "SKALL3TYZTZ4XSPNPNNGB7QU",
+          "token": "4RYCMJYD4BR7IZ6LKUJOOA5M",
           "name": "Avgolemono Soup",
           "description": "Traditional Greek lemon chicken soup with orzo, finished with a bright, comforting citrus flavor.",
-          "price": "7.99",
-          "displayPrice": "$7.99",
-          "seoTitle": "Avgolemono Soup | Mykonos Rancho Mirage",
-          "seoDescription": "Avgolemono Soup at Mykonos in Rancho Mirage: traditional Greek lemon chicken soup with orzo, finished with a bright, comforting citrus flavor.",
-          "modifiers": []
+          "price": "9.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Avgolemono Soup"
         },
         {
-          "token": "GB45LTCJBEUBS3XZMM2UBZFN",
+          "token": "7CSBZMDHSBECU4WKNAAAEWN7",
           "name": "Lentil Soup",
           "description": "Warm red lentil soup with butter and aromatic Mediterranean spices.",
-          "price": "6.99",
-          "displayPrice": "$6.99",
-          "seoTitle": "Lentil Soup | Mykonos Rancho Mirage",
-          "seoDescription": "Lentil Soup at Mykonos in Rancho Mirage: warm red lentil soup with butter and aromatic Mediterranean spices.",
-          "modifiers": []
+          "price": "8.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Lentil Soup"
         }
       ]
     },
     {
-      "sourceTitle": "Salads",
+      "id": "63B2RJILTWNFJQ3WNUXVMBYB",
+      "title": "Salads",
+      "slug": "salad-s",
+      "description": "Fresh salads with Greek, Mediterranean, seafood, and protein-forward options.",
+      "items": [
+        {
+          "token": "A5GTB7UZPMGJJDGNOPKJOI2R",
+          "name": "Falafel Salad",
+          "description": "Falafel , Mixed Greens, with Cherry, Tomatoes, Avocado, Cucumbers, Red onions, Olive oil, and , dressing.",
+          "price": "18.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Falafel Salad"
+        }
+      ]
+    },
+    {
+      "id": "UTYYRHUNCLQVGBGNRP3RRTN4",
       "title": "Salads",
       "slug": "salads",
       "description": "Fresh salads with Greek, Mediterranean, seafood, and protein-forward options.",
       "items": [
         {
-          "token": "5V5KV5J5ZLRTMYPA64X6QTIA",
+          "token": "GJMA5CSATD6F6CU2DGY2KGIZ",
           "name": "Authentic Greek Salad",
           "description": "A classic Greek salad with tomatoes, cucumbers, red onions, feta cheese, Kalamata olives, extra virgin olive oil, and oregano.",
-          "price": "16.99",
-          "displayPrice": "$16.99",
-          "seoTitle": "Authentic Greek Salad | Mykonos Rancho Mirage",
-          "seoDescription": "Authentic Greek Salad at Mykonos in Rancho Mirage: a classic Greek salad with tomatoes, cucumbers, red onions, feta cheese, Kalamata olives, extra virgin...",
+          "price": "17.99",
           "modifiers": [
             {
-              "name": "Protein options",
+              "name": "PROTEIN",
               "options": [
-                "Protein options available"
+                "Chicken Kebab (+$9.99)",
+                "Greek Meatballs (+$9.99)",
+                "Gyro Beef (+$9.99)",
+                "Lamb Kebab (+$11.99)",
+                "Filet Mignon Kebab (+$16.99)"
               ]
             }
-          ]
+          ],
+          "image": "",
+          "imageAlt": "Authentic Greek Salad"
         },
         {
-          "token": "AFPBNZVFWAOJEMXUYLGXSVFO",
+          "token": "27TOIHLC6KDB4UA4X74EA4EY",
           "name": "Greek Chicken Bowl",
-          "description": "White rice topped with chicken, tomatoes, lettuce, onion, cucumbers, olives, tzatziki, feta cheese, dolmades, and dressing.",
-          "price": "21.99",
-          "displayPrice": "$21.99",
-          "seoTitle": "Greek Chicken Bowl | Mykonos Rancho Mirage",
-          "seoDescription": "Greek Chicken Bowl at Mykonos in Rancho Mirage: white rice topped with chicken, tomatoes, lettuce, onion, cucumbers, olives, tzatziki, feta cheese,...",
-          "modifiers": []
+          "description": "White rice topped with chicken, tomatoes, lettuce, onion, cucumbers, olives, tzatziki, hummus , feta cheese, dolmades, and dressing.",
+          "price": "24.99",
+          "modifiers": [
+            {
+              "name": "PROTEIN",
+              "options": [
+                "Chicken Kebab (+$9.99)",
+                "Greek Meatballs (+$9.99)",
+                "Gyro Beef (+$9.99)",
+                "Lamb Kebab (+$11.99)",
+                "Filet Mignon Kebab (+$16.99)"
+              ]
+            }
+          ],
+          "image": "",
+          "imageAlt": "Greek Chicken Bowl"
         },
         {
-          "token": "JDMFRYRV5J52Y3OILJKECK53",
+          "token": "G7H663HSFF363UWLQJVBHJSW",
           "name": "Greek Lamb Bowl",
           "description": "White rice topped with lamb, tomatoes, lettuce, onion, cucumbers, olives, tzatziki, feta cheese, dolmades, and dressing.",
-          "price": "21.99",
-          "displayPrice": "$21.99",
-          "seoTitle": "Greek Lamb Bowl | Mykonos Rancho Mirage",
-          "seoDescription": "Greek Lamb Bowl at Mykonos in Rancho Mirage: white rice topped with lamb, tomatoes, lettuce, onion, cucumbers, olives, tzatziki, feta cheese, dolmades, and...",
-          "modifiers": []
+          "price": "24.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Greek Lamb Bowl"
         },
         {
-          "token": "NBSEBSZCQXQTHKN5C35WDIN3",
+          "token": "IWJFAB3GCN7BAV4BECS6THFD",
           "name": "Mahi-Mahi Salad",
           "description": "Grilled mahi-mahi over mixed greens with cherry tomatoes, avocado, mango, red onions, citrus dressing, olive oil, and black pepper.",
-          "price": "20.99",
-          "displayPrice": "$20.99",
-          "seoTitle": "Mahi-Mahi Salad | Mykonos Rancho Mirage",
-          "seoDescription": "Mahi-Mahi Salad at Mykonos in Rancho Mirage: grilled mahi-mahi over mixed greens with cherry tomatoes, avocado, mango, red onions, citrus dressing, olive...",
-          "modifiers": []
+          "price": "23.99",
+          "modifiers": [
+            {
+              "name": "PROTEIN",
+              "options": [
+                "Chicken Kebab (+$9.99)",
+                "Greek Meatballs (+$9.99)",
+                "Gyro Beef (+$9.99)",
+                "Lamb Kebab (+$11.99)",
+                "Filet Mignon Kebab (+$16.99)"
+              ]
+            }
+          ],
+          "image": "",
+          "imageAlt": "Mahi-Mahi Salad"
         },
         {
-          "token": "EZC56LLP25GG6YSAJPFXJR5O",
+          "token": "GJYRRFILJOZ5DTZWTCNWUFJ2",
           "name": "Mediterranean Salmon Salad",
           "description": "Grilled salmon over mixed greens with cherry tomatoes, avocado, cucumbers, red onions, olive oil, and creamy cilantro-lime dressing.",
-          "price": "21.99",
-          "displayPrice": "$21.99",
-          "seoTitle": "Mediterranean Salmon Salad | Mykonos Rancho Mirage",
-          "seoDescription": "Mediterranean Salmon Salad at Mykonos in Rancho Mirage: grilled salmon over mixed greens with cherry tomatoes, avocado, cucumbers, red onions, olive oil,...",
-          "modifiers": []
+          "price": "26.99",
+          "modifiers": [
+            {
+              "name": "PROTEIN",
+              "options": [
+                "Chicken Kebab (+$9.99)",
+                "Greek Meatballs (+$9.99)",
+                "Gyro Beef (+$9.99)",
+                "Lamb Kebab (+$11.99)",
+                "Filet Mignon Kebab (+$16.99)"
+              ]
+            }
+          ],
+          "image": "",
+          "imageAlt": "Mediterranean Salmon Salad"
         },
         {
-          "token": "EOFW2B2Q256EQ75FBHNMTWDW",
+          "token": "2XCKED7Y5SDTMFLVA5BGQXYC",
           "name": "Tabbouleh Salad",
           "description": "Fresh parsley, bulgur, tomatoes, green onions, mint, olive oil, lemon juice, salt, and black pepper.",
-          "price": "12.99",
-          "displayPrice": "$12.99",
-          "seoTitle": "Tabbouleh Salad | Mykonos Rancho Mirage",
-          "seoDescription": "Tabbouleh Salad at Mykonos in Rancho Mirage: fresh parsley, bulgur, tomatoes, green onions, mint, olive oil, lemon juice, salt, and black pepper.",
-          "modifiers": []
+          "price": "22.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Tabbouleh Salad"
         }
       ]
     },
     {
-      "sourceTitle": "Main Course",
+      "id": "QFGWVJFV7YFYP2SHJKKTBCPD",
       "title": "Main Course",
       "slug": "main-course",
       "description": "Signature Greek Mediterranean plates, gyros, kebabs, seafood, and traditional favorites.",
       "items": [
         {
-          "token": "4WQHRBOPVUHU2QHKARY3STSK",
+          "token": "QMOB35FMYEGKUVEZCXYNQAIF",
           "name": "Aegean Lamb Kebab with Eggplant Cream",
           "description": "Tender lamb kebab served with smoky roasted eggplant cream and chili-garlic yogurt for a bold Greek Mediterranean flavor.",
-          "price": "24.99",
-          "displayPrice": "$24.99",
-          "seoTitle": "Aegean Lamb Kebab with Eggplant Cream | Mykonos",
-          "seoDescription": "Aegean Lamb Kebab with Eggplant Cream at Mykonos in Rancho Mirage: tender lamb kebab served with smoky roasted eggplant cream and chili-garlic yogurt for a...",
-          "modifiers": []
+          "price": "31.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Aegean Lamb Kebab with Eggplant Cream"
         },
         {
-          "token": "SF5U3QAEKBUVMU7XOO5Q5D2Q",
+          "token": "AEYF6ZKMEKZ5OIJG3WA3PWYU",
           "name": "Aegean Moussaka",
           "description": "Oven-baked layers of eggplant, seasoned ground beef, tomato sauce, and creamy bechamel, finished with melted cheese.",
-          "price": "19.99",
-          "displayPrice": "$19.99",
-          "seoTitle": "Aegean Moussaka | Mykonos Rancho Mirage",
-          "seoDescription": "Aegean Moussaka at Mykonos in Rancho Mirage: oven-baked layers of eggplant, seasoned ground beef, tomato sauce, and creamy bechamel, finished with melted...",
-          "modifiers": []
+          "price": "23.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Aegean Moussaka"
         },
         {
-          "token": "EC6JFK47B2BIFIIF2SWZ4VBJ",
+          "token": "WRJQWNGKEIUCLMVUFI2X5MVS",
           "name": "Chicken Gyro Plate",
           "description": "Seasoned chicken gyro served with warm pita bread, fries, tomatoes, onions, and tzatziki.",
           "price": "17.99",
-          "displayPrice": "$17.99",
-          "seoTitle": "Chicken Gyro Plate | Mykonos Rancho Mirage",
-          "seoDescription": "Chicken Gyro Plate at Mykonos in Rancho Mirage: seasoned chicken gyro served with warm pita bread, fries, tomatoes, onions, and tzatziki.",
-          "modifiers": []
+          "modifiers": [],
+          "image": "https://items-images-production.s3.us-west-2.amazonaws.com/files/4189d76d401359e07c209876b5cfe85d12eb541b/original.png",
+          "imageAlt": "Chicken Gyro Plate.png"
         },
         {
-          "token": "RM3Q7OXKWYJDHI56TRUUPJ66",
+          "token": "DAS2MP47BQ6V5P2GGHS44DTA",
           "name": "Chicken Kebab",
           "description": "Juicy marinated chicken kebab skewers grilled over an open flame and served with hummus, tzatziki, warm pita, cucumbers, tomatoes, and lemon.",
-          "price": "22.99",
-          "displayPrice": "$22.99",
-          "seoTitle": "Chicken Kebab | Mykonos Rancho Mirage",
-          "seoDescription": "Chicken Kebab at Mykonos in Rancho Mirage: juicy marinated chicken kebab skewers grilled over an open flame and served with hummus, tzatziki, warm pita,...",
-          "modifiers": []
+          "price": "28.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Chicken Kebab"
         },
         {
-          "token": "XQWVH62PMZLCNT4JTMPXNUS7",
+          "token": "RYVPMYT5UWG3X27CEHKPYBWB",
           "name": "Filet Mignon Kebab",
           "description": "Grilled filet mignon skewers served with rice, grilled vegetables, and tzatziki.",
-          "price": "32.99",
-          "displayPrice": "$32.99",
-          "seoTitle": "Filet Mignon Kebab | Mykonos Rancho Mirage",
-          "seoDescription": "Filet Mignon Kebab at Mykonos in Rancho Mirage: grilled filet mignon skewers served with rice, grilled vegetables, and tzatziki.",
-          "modifiers": []
+          "price": "41.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Filet Mignon Kebab"
         },
         {
-          "token": "HGH6O5CSWNRKSB6CXV34LUFG",
+          "token": "TINI22LA3H2UC5T6KD37JCGR",
           "name": "Greek Meatballs",
           "description": "Homemade grilled Greek meatballs served over roasted eggplant with grilled tomato, pepper, and tzatziki sauce.",
-          "price": "21.99",
-          "displayPrice": "$21.99",
-          "seoTitle": "Greek Meatballs | Mykonos Rancho Mirage",
-          "seoDescription": "Greek Meatballs at Mykonos in Rancho Mirage: homemade grilled Greek meatballs served over roasted eggplant with grilled tomato, pepper, and tzatziki sauce.",
-          "modifiers": []
+          "price": "27.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Greek Meatballs"
         },
         {
-          "token": "B56BIYJYZXBKQINO7GMAXTYO",
+          "token": "CRZG6X4TRFK4JHEX3FDLKUMY",
           "name": "Greek Pastitsio",
           "description": "Traditional Greek baked pasta layered with seasoned ground beef and creamy bechamel sauce.",
-          "price": "21.99",
-          "displayPrice": "$21.99",
-          "seoTitle": "Greek Pastitsio | Mykonos Rancho Mirage",
-          "seoDescription": "Greek Pastitsio at Mykonos in Rancho Mirage: traditional Greek baked pasta layered with seasoned ground beef and creamy bechamel sauce.",
-          "modifiers": []
+          "price": "23.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Greek Pastitsio"
         },
         {
-          "token": "ZDLMLBGNLAGO2M72CGJESUI2",
+          "token": "2LFZS2T7WGOMQBDXW7XWH4VE",
           "name": "Grilled Mahi Mahi",
           "description": "Fresh grilled mahi-mahi fillet served with lemon potatoes, Greek salad, feta cheese, Kalamata olives, and extra virgin olive oil.",
-          "price": "21.99",
-          "displayPrice": "$21.99",
-          "seoTitle": "Grilled Mahi Mahi | Mykonos Rancho Mirage",
-          "seoDescription": "Grilled Mahi Mahi at Mykonos in Rancho Mirage: fresh grilled mahi-mahi fillet served with lemon potatoes, Greek salad, feta cheese, Kalamata olives, and...",
-          "modifiers": []
+          "price": "25.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Grilled Mahi Mahi"
         },
         {
-          "token": "NIUJOWHCORILY7GFC3LYU2DS",
+          "token": "TD3ZYQXBEOKA7PGMJVMVGEOX",
           "name": "Grilled Salmon",
           "description": "Grilled salmon fillet topped with lemon butter garlic sauce and served with asparagus and roasted potatoes.",
-          "price": "21.99",
-          "displayPrice": "$21.99",
-          "seoTitle": "Grilled Salmon | Mykonos Rancho Mirage",
-          "seoDescription": "Grilled Salmon at Mykonos in Rancho Mirage: grilled salmon fillet topped with lemon butter garlic sauce and served with asparagus and roasted potatoes.",
-          "modifiers": []
+          "price": "26.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Grilled Salmon"
         },
         {
-          "token": "FJT26EUTYFCVNE76DCNDCIQT",
+          "token": "RAOWJQCJI73CGZXZMCFHSDV5",
           "name": "Gyro Plate",
           "description": "Seasoned gyro meat served with warm pita bread, fries, tomatoes, onions, and tzatziki.",
-          "price": "17.99",
-          "displayPrice": "$17.99",
-          "seoTitle": "Gyro Plate | Mykonos Rancho Mirage",
-          "seoDescription": "Gyro Plate at Mykonos in Rancho Mirage: seasoned gyro meat served with warm pita bread, fries, tomatoes, onions, and tzatziki.",
-          "modifiers": []
+          "price": "23.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Gyro Plate"
         },
         {
-          "token": "WN7TBJX5BUDSIRYE2W42CS6S",
+          "token": "DODVQZEVQA5XVQ3YADKYGEFW",
           "name": "Handmade Chicken Tenders",
           "description": "Marinated chicken breast, crispy fried and served with a signature dipping sauce.",
-          "price": "14.99",
-          "displayPrice": "$14.99",
-          "seoTitle": "Handmade Chicken Tenders | Mykonos Rancho Mirage",
-          "seoDescription": "Handmade Chicken Tenders at Mykonos in Rancho Mirage: marinated chicken breast, crispy fried and served with a signature dipping sauce.",
-          "modifiers": []
+          "price": "18.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Handmade Chicken Tenders"
         },
         {
-          "token": "TPD5NFZ5IT43YTSUBHYQG4TL",
+          "token": "O3AVRRQLRBAPBZ2RDOAR27ZK",
           "name": "Lamb Kebab",
           "description": "Juicy marinated lamb kebab skewers grilled over an open flame and served with hummus, tzatziki, warm pita, cucumbers, tomatoes, and lemon.",
-          "price": "24.99",
-          "displayPrice": "$24.99",
-          "seoTitle": "Lamb Kebab | Mykonos Rancho Mirage",
-          "seoDescription": "Lamb Kebab at Mykonos in Rancho Mirage: juicy marinated lamb kebab skewers grilled over an open flame and served with hummus, tzatziki, warm pita,...",
-          "modifiers": []
+          "price": "29.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Lamb Kebab"
         },
         {
-          "token": "JEWUYERMGT5XYUIUUXMUIPKU",
+          "token": "7YDF53OW6RHRTOCCGNPBRSTI",
           "name": "Lamb Shank with Orzo Rice",
           "description": "Tender oven-baked lamb shank marinated in Greek herbs and spices, served with orzo rice.",
-          "price": "33.99",
-          "displayPrice": "$33.99",
-          "seoTitle": "Lamb Shank with Orzo Rice | Mykonos Rancho Mirage",
-          "seoDescription": "Lamb Shank with Orzo Rice at Mykonos in Rancho Mirage: tender oven-baked lamb shank marinated in Greek herbs and spices, served with orzo rice.",
-          "modifiers": []
+          "price": "43.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Lamb Shank with Orzo Rice"
         },
         {
-          "token": "T7RQVBUN3KSF5SHGIUQWFRWS",
+          "token": "IU3ADLNIBVYL35SCZHJVUHW4",
           "name": "Lunch Special",
           "description": "Choice of any sandwich with soup or salad and a soft drink.",
           "price": "17.99",
-          "displayPrice": "$17.99",
-          "seoTitle": "Lunch Special | Mykonos Rancho Mirage",
-          "seoDescription": "Lunch Special at Mykonos in Rancho Mirage: choice of any sandwich with soup or salad and a soft drink.",
-          "modifiers": []
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Lunch Special"
         },
         {
-          "token": "JSBNAZ63JTZILV2652ORRXU3",
+          "token": "LUVSG7ZRWBTDLUJ2OXOTB7PR",
           "name": "Mykonos Grilled Branzino",
           "description": "Whole Mediterranean sea bass grilled and served with lemon, olive oil, oregano, and roasted potatoes.",
-          "price": "26.99",
-          "displayPrice": "$26.99",
-          "seoTitle": "Mykonos Grilled Branzino | Mykonos Rancho Mirage",
-          "seoDescription": "Mykonos Grilled Branzino at Mykonos in Rancho Mirage: whole Mediterranean sea bass grilled and served with lemon, olive oil, oregano, and roasted potatoes.",
-          "modifiers": []
+          "price": "33.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Mykonos Grilled Branzino"
         },
         {
-          "token": "NEYIBNB3KIRKYQHLYFBVUYKJ",
+          "token": "KBX77G6AOQZQC6NXCW5VUG4T",
+          "name": "Mykonos Mix Plate",
+          "description": "Chicken,Lamb ,Skewers, 2 Greek Meatballs, 3oz Gyro,Served With hummus,tzatziki,rice & Salad",
+          "price": "59.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Mykonos Mix Plate"
+        },
+        {
+          "token": "GNUFNSUKJTWP62F6DTPMXBF5",
           "name": "Roasted Lamb",
           "description": "Slow-cooked juicy lamb pieces prepared with roasted red pepper sauce and Greek spices.",
-          "price": "28.99",
-          "displayPrice": "$28.99",
-          "seoTitle": "Roasted Lamb | Mykonos Rancho Mirage",
-          "seoDescription": "Roasted Lamb at Mykonos in Rancho Mirage: slow-cooked juicy lamb pieces prepared with roasted red pepper sauce and Greek spices.",
-          "modifiers": []
+          "price": "32.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Roasted Lamb"
         },
         {
-          "token": "23WBBZCRTNFW6BSZ3X2RMLHE",
+          "token": "XLAGLYXQYPR7CPBQMJRJ6ZKH",
           "name": "Vegetarian Plate",
           "description": "Dolmades, falafel, spanakopita, and soy curls served with olive oil and lemon.",
-          "price": "18.99",
-          "displayPrice": "$18.99",
-          "seoTitle": "Vegetarian Plate | Mykonos Rancho Mirage",
-          "seoDescription": "Vegetarian Plate at Mykonos in Rancho Mirage: dolmades, falafel, spanakopita, and soy curls served with olive oil and lemon.",
-          "modifiers": []
+          "price": "21.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Vegetarian Plate"
         }
       ]
     },
     {
-      "sourceTitle": "Sandwiches",
+      "id": "U6SFRQO6XHCOVM6P3ZV4PPPJ",
       "title": "Sandwiches",
       "slug": "sandwiches",
       "description": "Greek sandwiches and plates featuring gyros, falafel, and Mediterranean favorites.",
       "items": [
         {
-          "token": "US5U5BHRTKZJMAPK36J5TMMS",
+          "token": "KTT3HLPDU6W2RJOMFXNPHX45",
           "name": "Chicken Gyro Sandwich Plate",
           "description": "Warm pita filled with chicken gyro, tzatziki, tomatoes, onions, and fries.",
           "price": "15.99",
-          "displayPrice": "$15.99",
-          "seoTitle": "Chicken Gyro Sandwich Plate | Mykonos Rancho Mirage",
-          "seoDescription": "Chicken Gyro Sandwich Plate at Mykonos in Rancho Mirage: warm pita filled with chicken gyro, tzatziki, tomatoes, onions, and fries.",
-          "modifiers": []
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Chicken Gyro Sandwich Plate"
         },
         {
-          "token": "TZSN6LU7UHTKLIT4UUKT4PJI",
+          "token": "YQIJFXYBYEIIF4T5XVULEZF6",
           "name": "Falafel Sandwich Plate",
           "description": "Crispy falafel in warm pita with lettuce, tomato, cucumber, pickles, parsley, and tahini.",
           "price": "15.99",
-          "displayPrice": "$15.99",
-          "seoTitle": "Falafel Sandwich Plate | Mykonos Rancho Mirage",
-          "seoDescription": "Falafel Sandwich Plate at Mykonos in Rancho Mirage: crispy falafel in warm pita with lettuce, tomato, cucumber, pickles, parsley, and tahini.",
-          "modifiers": []
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Falafel Sandwich Plate"
         },
         {
-          "token": "5P4RJXFDBAQCYNXIXOSVWZ3N",
-          "name": "Gyro Burger",
-          "description": "Juicy gyro patty topped with cheese, fresh lettuce, grilled onions, tomatoes, and creamy tzatziki sauce.",
-          "price": "14.99",
-          "displayPrice": "$14.99",
-          "seoTitle": "Gyro Burger | Mykonos Rancho Mirage",
-          "seoDescription": "Gyro Burger at Mykonos in Rancho Mirage: juicy gyro patty topped with cheese, fresh lettuce, grilled onions, tomatoes, and creamy tzatziki sauce.",
-          "modifiers": []
+          "token": "A5XIEZPJVAAFU2OIPPKZWJFL",
+          "name": "Greek Meatballs Burger",
+          "description": "Juicy greek meatballs , patty topped with cheese, fresh lettuce, grilled onions, tomatoes, and creamy tzatziki sauce.",
+          "price": "16.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Greek Meatballs Burger"
         },
         {
-          "token": "E32T7V2LNP5WIL42GZG2T7M2",
+          "token": "NMKJRNZYW46HQGASEWCTB7D7",
           "name": "Gyro Sandwich Plate",
           "description": "Warm pita filled with gyro meat, tzatziki, tomatoes, onions, and fries.",
           "price": "16.99",
-          "displayPrice": "$16.99",
-          "seoTitle": "Gyro Sandwich Plate | Mykonos Rancho Mirage",
-          "seoDescription": "Gyro Sandwich Plate at Mykonos in Rancho Mirage: warm pita filled with gyro meat, tzatziki, tomatoes, onions, and fries.",
-          "modifiers": []
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Gyro Sandwich Plate"
         },
         {
-          "token": "I7DK7W5IGYMQ5LYJ4R6UTCAV",
+          "token": "THHMBJGYTCMBEQKW36N7KV6Y",
           "name": "Keftehakia Sandwich Plate",
           "description": "Greek-style grilled meatballs in warm pita with lettuce, tomato, onion, and tzatziki sauce.",
           "price": "16.99",
-          "displayPrice": "$16.99",
-          "seoTitle": "Keftehakia Sandwich Plate | Mykonos Rancho Mirage",
-          "seoDescription": "Keftehakia Sandwich Plate at Mykonos in Rancho Mirage: greek-style grilled meatballs in warm pita with lettuce, tomato, onion, and tzatziki sauce.",
-          "modifiers": []
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Keftehakia Sandwich Plate"
         }
       ]
     },
     {
-      "sourceTitle": "Sides",
+      "id": "RBWMJJE7ODA5NAGK4ACPDSBC",
       "title": "Sides",
       "slug": "sides",
       "description": "Simple sides to pair with Greek Mediterranean meals.",
       "items": [
         {
-          "token": "KVRA74ET6OILPMXFMQKXKVO3",
+          "token": "SJ6VIZDNHFXX2RTW5WK7Z4ZO",
           "name": "French Fries",
           "description": "Crispy golden French fries served hot.",
-          "price": "5.99",
-          "displayPrice": "$5.99",
-          "seoTitle": "French Fries | Mykonos Rancho Mirage",
-          "seoDescription": "French Fries at Mykonos in Rancho Mirage: crispy golden French fries served hot.",
-          "modifiers": []
+          "price": "8.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "French Fries"
         },
         {
-          "token": "C4NS6R2VVFQEBFYCPEA5QRXM",
+          "token": "N74BN2U3GCMFOCPS453JBPAB",
+          "name": "Pita",
+          "description": "",
+          "price": "1.00",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Pita"
+        },
+        {
+          "token": "HGOLJCXO7UYMYS4OUVNAK2UT",
           "name": "Side Salad",
           "description": "Fresh side salad with lettuce, tomatoes, cucumber, onion, feta cheese, dolmades, olives, and dressing.",
-          "price": "7.99",
-          "displayPrice": "$7.99",
-          "seoTitle": "Side Salad | Mykonos Rancho Mirage",
-          "seoDescription": "Side Salad at Mykonos in Rancho Mirage: fresh side salad with lettuce, tomatoes, cucumber, onion, feta cheese, dolmades, olives, and dressing.",
+          "price": "9.99",
           "modifiers": [
             {
-              "name": "Protein options",
+              "name": "PROTEIN",
               "options": [
-                "Protein options available"
+                "Chicken Kebab (+$9.99)",
+                "Greek Meatballs (+$9.99)",
+                "Gyro Beef (+$9.99)",
+                "Lamb Kebab (+$11.99)",
+                "Filet Mignon Kebab (+$16.99)"
               ]
             }
-          ]
+          ],
+          "image": "",
+          "imageAlt": "Side Salad"
         }
       ]
     },
     {
-      "sourceTitle": "Desserts",
+      "id": "ZYWLHXUXSY7XKXQR3RH3LFZX",
       "title": "Desserts",
       "slug": "desserts",
       "description": "Greek and Mediterranean desserts, puddings, baklava, and sweet finishes.",
       "items": [
         {
-          "token": "SY35V4Q7QWPDPZHUUKQYQ5UC",
+          "token": "7DV4KJUD2YYUYJIE7V2Q7KIP",
           "name": "Baklava - 2 Pieces",
           "description": "Two pieces of crispy phyllo pastry layered with pistachios and finished with sweet syrup.",
-          "price": "7.99",
-          "displayPrice": "$7.99",
-          "seoTitle": "Baklava - 2 Pieces | Mykonos Rancho Mirage",
-          "seoDescription": "Baklava - 2 Pieces at Mykonos in Rancho Mirage: two pieces of crispy phyllo pastry layered with pistachios and finished with sweet syrup.",
-          "modifiers": []
+          "price": "8.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Baklava - 2 Pieces"
         },
         {
-          "token": "HRMZPNZQUZ3KHAUBJYI66BVL",
+          "token": "JYZAVKN5CWWVNKTTGUEZ2DIF",
+          "name": "Banana Magnolia Pudding",
+          "description": "Creamy vanilla pudding layered with fresh banana and butter biscuits.",
+          "price": "11.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Banana Magnolia Pudding"
+        },
+        {
+          "token": "NS3LJ7X4XTSLBEWIRJPZVQEJ",
           "name": "Cherry Milk Pudding",
           "description": "Creamy milk pudding topped with a sweet and tangy sour cherry sauce.",
           "price": "9.99",
-          "displayPrice": "$9.99",
-          "seoTitle": "Cherry Milk Pudding | Mykonos Rancho Mirage",
-          "seoDescription": "Cherry Milk Pudding at Mykonos in Rancho Mirage: creamy milk pudding topped with a sweet and tangy sour cherry sauce.",
-          "modifiers": []
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Cherry Milk Pudding"
         },
         {
-          "token": "ESAGCQHECT5Q3ZAMADFR7ATC",
-          "name": "Banana Magnolia Pudding",
-          "description": "Creamy vanilla pudding layered with fresh banana and butter biscuits.",
-          "price": "9.99",
-          "displayPrice": "$9.99",
-          "seoTitle": "Banana Magnolia Pudding | Mykonos Rancho Mirage",
-          "seoDescription": "Banana Magnolia Pudding at Mykonos in Rancho Mirage: creamy vanilla pudding layered with fresh banana and butter biscuits.",
-          "modifiers": []
-        },
-        {
-          "token": "NSRSKUUU6PCPNIRUOHHU2CAY",
-          "name": "Strawberry Magnolia Pudding",
-          "description": "Creamy vanilla pudding layered with fresh strawberries and butter biscuits.",
-          "price": "9.99",
-          "displayPrice": "$9.99",
-          "seoTitle": "Strawberry Magnolia Pudding | Mykonos Rancho Mirage",
-          "seoDescription": "Strawberry Magnolia Pudding at Mykonos in Rancho Mirage: creamy vanilla pudding layered with fresh strawberries and butter biscuits.",
-          "modifiers": []
-        },
-        {
-          "token": "5EIFOE4WQSXPDU3CG3HGX5NR",
+          "token": "WHYVOZR6CQO2JQZ7CJUO46LS",
           "name": "Oven-Baked Rice Pudding",
           "description": "Traditional oven-baked rice pudding made with milk and vanilla, finished with a lightly caramelized top.",
           "price": "9.99",
-          "displayPrice": "$9.99",
-          "seoTitle": "Oven-Baked Rice Pudding | Mykonos Rancho Mirage",
-          "seoDescription": "Oven-Baked Rice Pudding at Mykonos in Rancho Mirage: traditional oven-baked rice pudding made with milk and vanilla, finished with a lightly caramelized top.",
-          "modifiers": []
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Oven-Baked Rice Pudding"
         },
         {
-          "token": "HCVZWYMHM5DJ5HQAFK3FRDMB",
+          "token": "BYE3AYBPI4UIWMRJ3TBJ24AR",
           "name": "Pistachio Carrot Slice Baklava with Ice Cream",
           "description": "Large slice of crispy phyllo pastry layered with pistachios, finished with sweet syrup, and served with ice cream.",
-          "price": "9.99",
-          "displayPrice": "$9.99",
-          "seoTitle": "Pistachio Carrot Slice Baklava with Ice Cream | Mykonos",
-          "seoDescription": "Pistachio Carrot Slice Baklava with Ice Cream at Mykonos in Rancho Mirage: large slice of crispy phyllo pastry layered with pistachios, finished with sweet...",
-          "modifiers": []
+          "price": "12.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Pistachio Carrot Slice Baklava with Ice Cream"
         },
         {
-          "token": "XZKXD2MGKAJTKXL6V4GLA3VD",
+          "token": "F5VX4UOVK6XFQJEMELNUQSYO",
           "name": "Semolina Syrup Cookies - 2 Pieces",
           "description": "Two traditional semolina cookies baked and soaked in sweet syrup, served with one scoop of ice cream.",
           "price": "6.99",
-          "displayPrice": "$6.99",
-          "seoTitle": "Semolina Syrup Cookies - 2 Pieces | Mykonos Rancho Mirage",
-          "seoDescription": "Semolina Syrup Cookies - 2 Pieces at Mykonos in Rancho Mirage: two traditional semolina cookies baked and soaked in sweet syrup, served with one scoop of...",
-          "modifiers": []
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Semolina Syrup Cookies - 2 Pieces"
+        },
+        {
+          "token": "TFH3RGHYLUAVY6AILMX7NCVP",
+          "name": "Strawberry Magnolia Pudding",
+          "description": "Creamy vanilla pudding layered with fresh strawberries and butter biscuits.",
+          "price": "11.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Strawberry Magnolia Pudding"
         }
       ]
     },
     {
-      "sourceTitle": "Soft Drinks",
+      "id": "3F7N7CH3NOKNXVA6EEVKBVQA",
       "title": "Soft Drinks",
       "slug": "soft-drinks",
       "description": "Refreshing drinks, iced tea, lemonade, and soft drinks.",
       "items": [
         {
-          "token": "WPUI3AAPMY3YAACLKSFHSLJ3",
+          "token": "TLAOVQMKNTIGO72XV22HWSDQ",
+          "name": "GREEK COFEE",
+          "description": "",
+          "price": "4.00",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "GREEK COFEE"
+        },
+        {
+          "token": "HA5ZBKG3OPGNWSAWAGELR3NJ",
+          "name": "TURKISH HOT TEA",
+          "description": "",
+          "price": "4.00",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "TURKISH HOT TEA"
+        }
+      ]
+    },
+    {
+      "id": "UY3RF33E5FXN3E4XK2DUDNPP",
+      "title": "Soft Drinks",
+      "slug": "soft-drinks-11",
+      "description": "Refreshing drinks, iced tea, lemonade, and soft drinks.",
+      "items": [
+        {
+          "token": "PGY2JASL4XGDX7TF3E3475O2",
+          "name": "Arnaold Palmer",
+          "description": "",
+          "price": "6.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Arnaold Palmer"
+        },
+        {
+          "token": "OL2UFE7HPGU42Q3ZPLHONWTQ",
           "name": "Crush Orange",
           "description": "Refreshing orange soda served cold.",
-          "price": "3.75",
-          "displayPrice": "$3.75",
-          "seoTitle": "Crush Orange | Mykonos Rancho Mirage",
-          "seoDescription": "Crush Orange at Mykonos in Rancho Mirage: refreshing orange soda served cold.",
-          "modifiers": []
+          "price": "4.75",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Crush Orange"
         },
         {
-          "token": "4VXY5CKNDWC3LHOQCRUENKUS",
-          "name": "Dr Pepper",
-          "description": "Classic Dr Pepper soda served cold.",
-          "price": "3.75",
-          "displayPrice": "$3.75",
-          "seoTitle": "Dr Pepper | Mykonos Rancho Mirage",
-          "seoDescription": "Dr Pepper at Mykonos in Rancho Mirage: classic Dr Pepper soda served cold.",
-          "modifiers": []
-        },
-        {
-          "token": "GZ3ZW3N5TKB3KR5IJJCWL4E7",
-          "name": "Homemade Iced Tea",
-          "description": "Fresh homemade iced tea served cold.",
-          "price": "3.75",
-          "displayPrice": "$3.75",
-          "seoTitle": "Homemade Iced Tea | Mykonos Rancho Mirage",
-          "seoDescription": "Homemade Iced Tea at Mykonos in Rancho Mirage: fresh homemade iced tea served cold.",
-          "modifiers": []
-        },
-        {
-          "token": "SOXHDN5NCJT5IFVIQC6PE7AK",
-          "name": "Homemade Lemonade",
-          "description": "Fresh homemade lemonade with a bright, refreshing citrus flavor.",
-          "price": "3.75",
-          "displayPrice": "$3.75",
-          "seoTitle": "Homemade Lemonade | Mykonos Rancho Mirage",
-          "seoDescription": "Homemade Lemonade at Mykonos in Rancho Mirage: fresh homemade lemonade with a bright, refreshing citrus flavor.",
-          "modifiers": []
-        },
-        {
-          "token": "NUGVOJCBBFLWLKISSDBGB7CU",
-          "name": "Pepsi",
-          "description": "Classic Pepsi cola served cold.",
-          "price": "3.75",
-          "displayPrice": "$3.75",
-          "seoTitle": "Pepsi | Mykonos Rancho Mirage",
-          "seoDescription": "Pepsi at Mykonos in Rancho Mirage: classic Pepsi cola served cold.",
-          "modifiers": []
-        },
-        {
-          "token": "JTD2ZXLSFP2GG4IWMIVI3R3D",
+          "token": "FNGML4KVL5KOTDOAV6CTF7H6",
           "name": "Diet Pepsi",
           "description": "Diet Pepsi cola served cold.",
-          "price": "3.75",
-          "displayPrice": "$3.75",
-          "seoTitle": "Diet Pepsi | Mykonos Rancho Mirage",
-          "seoDescription": "Diet Pepsi at Mykonos in Rancho Mirage: diet Pepsi cola served cold.",
-          "modifiers": []
+          "price": "4.75",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Diet Pepsi"
         },
         {
-          "token": "6YZMLNUIYAMQNBLJYZ2CR6C7",
+          "token": "JU5PNPOLLRLVBQUI7YX36I2H",
+          "name": "Dr Pepper",
+          "description": "Classic Dr Pepper soda served cold.",
+          "price": "4.75",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Dr Pepper"
+        },
+        {
+          "token": "M62KEZDVI5MJ3UMFJIC75V5Y",
+          "name": "Homemade Iced Tea",
+          "description": "Fresh homemade iced tea served cold.",
+          "price": "5.75",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Homemade Iced Tea"
+        },
+        {
+          "token": "ULPMGPMB776WU342YJQ3YPAR",
+          "name": "Homemade Lemonade",
+          "description": "Fresh homemade lemonade with a bright, refreshing citrus flavor.",
+          "price": "7.75",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Homemade Lemonade"
+        },
+        {
+          "token": "EYR6NOZATIYW56SC3ONV6PI3",
+          "name": "Pepsi",
+          "description": "Classic Pepsi cola served cold.",
+          "price": "4.75",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Pepsi"
+        },
+        {
+          "token": "7DBKJUZMYLGYUPVQMXZTFYVB",
           "name": "Pepsi Zero Sugar",
           "description": "Pepsi Zero Sugar cola served cold.",
-          "price": "3.75",
-          "displayPrice": "$3.75",
-          "seoTitle": "Pepsi Zero Sugar | Mykonos Rancho Mirage",
-          "seoDescription": "Pepsi Zero Sugar at Mykonos in Rancho Mirage: pepsi Zero Sugar cola served cold.",
-          "modifiers": []
+          "price": "4.75",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Pepsi Zero Sugar"
         },
         {
-          "token": "J66WOQCLQEOJL6TOEMIDUVAY",
+          "token": "FBL4U4NN2J2MP22LC453KP2W",
           "name": "Pink Lemonade",
           "description": "Refreshing pink lemonade served cold.",
-          "price": "3.75",
-          "displayPrice": "$3.75",
-          "seoTitle": "Pink Lemonade | Mykonos Rancho Mirage",
-          "seoDescription": "Pink Lemonade at Mykonos in Rancho Mirage: refreshing pink lemonade served cold.",
-          "modifiers": []
+          "price": "4.75",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Pink Lemonade"
+        },
+        {
+          "token": "SMWDWFY3JCKJ6AFV2WLR3XRP",
+          "name": "S.PELLEGRINO",
+          "description": "",
+          "price": "6.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "S.PELLEGRINO"
+        }
+      ]
+    },
+    {
+      "id": "DTOVETE4XF5ZGJPAFFI6RMNW",
+      "title": "BEER'S",
+      "slug": "beer-s",
+      "description": "BEER'S from the Mykonos menu.",
+      "items": [
+        {
+          "token": "YMMHOQ7OPBR7WBS2W27FH27Y",
+          "name": "Bud light",
+          "description": "",
+          "price": "8.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Bud light"
+        },
+        {
+          "token": "CKPFYMHNFBQXIIRNMQMUQXC6",
+          "name": "Budweiser",
+          "description": "",
+          "price": "8.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Budweiser"
+        },
+        {
+          "token": "AA2ZSX7PEIIREUXE73AKYIB4",
+          "name": "Greek Alfa",
+          "description": "",
+          "price": "8.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Greek Alfa"
+        },
+        {
+          "token": "NTF3RFYUU7IJJSPEL4QYHFTP",
+          "name": "Greek Fix hellas",
+          "description": "",
+          "price": "8.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Greek Fix hellas"
+        },
+        {
+          "token": "SIPYUDF7WG6ZOJXSU5JYN3JI",
+          "name": "Greek Mythos",
+          "description": "",
+          "price": "8.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Greek Mythos"
+        },
+        {
+          "token": "Y5H2ZOASGBMOT2ERER6NPFX7",
+          "name": "Modelo Especial",
+          "description": "",
+          "price": "8.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Modelo Especial"
+        },
+        {
+          "token": "XCGZ3LOB5CM5CLDGTCCBC2HR",
+          "name": "Modelo Negra",
+          "description": "",
+          "price": "8.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Modelo Negra"
+        },
+        {
+          "token": "FWAQKTDP3XGRITQAVFMK2YOY",
+          "name": "Stella Artois",
+          "description": "",
+          "price": "8.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Stella Artois"
+        },
+        {
+          "token": "G3X4MVHNTVORTBUNANCYB72M",
+          "name": "Stella Artois 0.0",
+          "description": "",
+          "price": "8.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Stella Artois 0.0"
+        }
+      ]
+    },
+    {
+      "id": "IPHXXKAJ46RPUKVOJCLKRS2F",
+      "title": "hot mezzes",
+      "slug": "hot-mezzes",
+      "description": "hot mezzes from the Mykonos menu.",
+      "items": [
+        {
+          "token": "UHLOFDVUNHYZNPP2QBATZ7TS",
+          "name": "Flaming Saganaki",
+          "description": "Flamed Greek Cheese, Finished With Fresh Lemon",
+          "price": "18.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Flaming Saganaki"
+        }
+      ]
+    },
+    {
+      "id": "uncategorized",
+      "title": "More Menu Items",
+      "slug": "more-menu-items",
+      "description": "More Menu Items from the Mykonos menu.",
+      "items": [
+        {
+          "token": "3TUQ5YJTY542XCE2IWMLSUZI",
+          "name": "Alfa",
+          "description": "",
+          "price": "8.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Alfa"
+        },
+        {
+          "token": "BEBVO5ZWA7CTLQRUWFSF4ERT",
+          "name": "Fix Hellas",
+          "description": "",
+          "price": "8.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Fix Hellas"
+        },
+        {
+          "token": "IFNH57Y2VO4XG6C2DCUN762Y",
+          "name": "Mythos",
+          "description": "",
+          "price": "8.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Mythos"
+        }
+      ]
+    },
+    {
+      "id": "3NLDDG2VLCRRVFRS4NF36XYK",
+      "title": "Red Wine's",
+      "slug": "red-wine-s",
+      "description": "Red Wine's from the Mykonos menu.",
+      "items": [
+        {
+          "token": "7QGYX4Z2U7MMFNLZWGQ2IP5J",
+          "name": "Bogle Petite Sirah",
+          "description": "",
+          "price": "11.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Bogle Petite Sirah"
+        },
+        {
+          "token": "RBN7O4H7F5L2D43DPQNRA543",
+          "name": "Fteri Agiorgitiko  Greek",
+          "description": "",
+          "price": "12.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Fteri Agiorgitiko  Greek"
+        },
+        {
+          "token": "DYCS2COQ3ZUT2GBXP6YGMZTZ",
+          "name": "Josh Cabernet Sauvignon",
+          "description": "",
+          "price": "11.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Josh Cabernet Sauvignon"
+        },
+        {
+          "token": "Q5B4VQ5FNMQCP6FBVAL2K5OR",
+          "name": "Josh Merlot",
+          "description": "",
+          "price": "11.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Josh Merlot"
+        },
+        {
+          "token": "MLTJJDYE54TZ76XZBK7F52E5",
+          "name": "Josh Pinot Noir",
+          "description": "",
+          "price": "11.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Josh Pinot Noir"
+        }
+      ]
+    },
+    {
+      "id": "WY3ERZTY2LVUXM3JRCL37E2M",
+      "title": "Rose Wine's",
+      "slug": "rose-wine-s",
+      "description": "Rose Wine's from the Mykonos menu.",
+      "items": [
+        {
+          "token": "GRFURM233XQXOFY43D6TJNKZ",
+          "name": "Josh Cellars Rose",
+          "description": "",
+          "price": "11.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Josh Cellars Rose"
+        },
+        {
+          "token": "CZDFTLB5JFD7NF3SQMGII62O",
+          "name": "Zafeirakis Limniona Greek",
+          "description": "",
+          "price": "11.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Zafeirakis Limniona Greek"
+        }
+      ]
+    },
+    {
+      "id": "PFFXIEJ6FVESDNGG7A5LWCU2",
+      "title": "Sparkling Wine's",
+      "slug": "sparkling-wine-s",
+      "description": "Sparkling Wine's from the Mykonos menu.",
+      "items": [
+        {
+          "token": "O4F6FAHEOK2D23PO24WGIYUF",
+          "name": "Otto's Athens",
+          "description": "",
+          "price": "12.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Otto's Athens"
+        },
+        {
+          "token": "42LCWTIVA577L4CT2NZIHGQT",
+          "name": "Prosecco",
+          "description": "",
+          "price": "12.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Prosecco"
+        }
+      ]
+    },
+    {
+      "id": "CLSOZBA5EG3O52UCBIVMDSOV",
+      "title": "White Wine",
+      "slug": "white-wine",
+      "description": "White Wine from the Mykonos menu.",
+      "items": [
+        {
+          "token": "HMYWN3XN7QEPFBOVXQ2X4CMX",
+          "name": "Fteri-Moschofilero Greek",
+          "description": "",
+          "price": "12.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Fteri-Moschofilero Greek"
+        },
+        {
+          "token": "U4Z3FVOI3EONWARWT7MFEASC",
+          "name": "Josh Chardornnay",
+          "description": "",
+          "price": "11.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Josh Chardornnay"
+        },
+        {
+          "token": "MLWQMJVZYW63XMUNEEYBF5Z5",
+          "name": "Josh Pinot Grigio",
+          "description": "",
+          "price": "11.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Josh Pinot Grigio"
+        },
+        {
+          "token": "IYUTMS6N6L7F2WNUTSFMMZOJ",
+          "name": "Josh Sauvignon Blanc",
+          "description": "",
+          "price": "11.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Josh Sauvignon Blanc"
+        },
+        {
+          "token": "XOTCYAL3LXJQZVF7FJVAOUJT",
+          "name": "Terra Nera Greek",
+          "description": "",
+          "price": "12.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Terra Nera Greek"
+        },
+        {
+          "token": "5PMGWLQ4DQ4AHO5RTTFQXIIW",
+          "name": "Vorias & Helios Ritinitis Greek",
+          "description": "",
+          "price": "12.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Vorias & Helios Ritinitis Greek"
         }
       ]
     }

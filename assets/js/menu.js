@@ -100,7 +100,7 @@ function renderMenu(root, categories, options = {}) {
                   <div class="menu-item-copy">
                     <h3 itemprop="name">${escapeHtml(item.name)}</h3>
                     ${item.description ? `<p itemprop="description">${escapeHtml(item.description)}</p>` : ''}
-                    ${renderModifiers(item)}
+                    ${(item.modifiers || []).map(mod => (mod.options || []).length ? `<p class="menu-modifier-note"><strong>${escapeHtml(mod.name || 'Options')}:</strong> ${escapeHtml(mod.options.join(', '))}</p>` : '').join('')}
                   </div>
 
                   ${visiblePrice ? `
@@ -126,20 +126,16 @@ function renderMenu(root, categories, options = {}) {
 
 async function getMenuCategories() {
   try {
-    const squareData = await fetchJson('/.netlify/functions/square-menu');
-    if (categoriesLookUsable(squareData.categories)) return squareData.categories;
-  } catch {}
-
-  try {
-    const fallbackData = await fetchJson('/assets/data/menu.json');
-    if (categoriesLookUsable(fallbackData.categories)) return fallbackData.categories;
+    const staticData = await fetchJson('/assets/data/menu.json');
+    if (categoriesLookUsable(staticData.categories)) return staticData.categories;
   } catch {}
 
   return [];
 }
 
 async function loadMenus() {
-  const roots = document.querySelectorAll('[data-menu-render="dynamic"]');
+  // Full menu is pre-rendered HTML for speed and SEO; only home previews use JSON.
+  const roots = document.querySelectorAll('#home-menu-root[data-menu-render="dynamic"]');
   if (!roots.length) return;
 
   const categories = await getMenuCategories();

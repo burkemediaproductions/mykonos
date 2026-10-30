@@ -1,0 +1,38 @@
+name: Sync Square menu to static website
+on:
+  schedule:
+    # Daily at 15:17 UTC (8:17 AM PDT / 7:17 AM PST)
+    - cron: '17 15 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: square-menu-static-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out current website
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate static menu from Square catalog
+        run: node scripts/sync-square-menu.mjs
+      - name: Validate generated menu
+        run: node --test scripts/sync-square-menu.test.mjs
+      - name: Commit only real menu changes
+        run: |
+          git add assets/data/menu.json menu/index.html
+          if git diff --cached --quiet; then
+            echo 'No changes to publish.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Sync static menu from Square'
+          git push
