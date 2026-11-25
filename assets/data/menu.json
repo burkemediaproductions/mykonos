@@ -205,23 +205,6 @@
       ]
     },
     {
-      "id": "63B2RJILTWNFJQ3WNUXVMBYB",
-      "title": "Salads",
-      "slug": "salad-s",
-      "description": "Fresh salads with Greek, Mediterranean, seafood, and protein-forward options.",
-      "items": [
-        {
-          "token": "A5GTB7UZPMGJJDGNOPKJOI2R",
-          "name": "Falafel Salad",
-          "description": "Falafel , Mixed Greens, with Cherry, Tomatoes, Avocado, Cucumbers, Red onions, Olive oil, and , dressing.",
-          "price": "18.99",
-          "modifiers": [],
-          "image": "",
-          "imageAlt": "Falafel Salad"
-        }
-      ]
-    },
-    {
       "id": "UTYYRHUNCLQVGBGNRP3RRTN4",
       "title": "Salads",
       "slug": "salads",
@@ -246,6 +229,15 @@
           ],
           "image": "",
           "imageAlt": "Authentic Greek Salad"
+        },
+        {
+          "token": "A5GTB7UZPMGJJDGNOPKJOI2R",
+          "name": "Falafel Salad",
+          "description": "Falafel , Mixed Greens, with Cherry, Tomatoes, Avocado, Cucumbers, Red onions, Olive oil, and , dressing.",
+          "price": "18.99",
+          "modifiers": [],
+          "image": "",
+          "imageAlt": "Falafel Salad"
         },
         {
           "token": "27TOIHLC6KDB4UA4X74EA4EY",
@@ -696,7 +688,7 @@
     {
       "id": "UY3RF33E5FXN3E4XK2DUDNPP",
       "title": "Soft Drinks",
-      "slug": "soft-drinks-11",
+      "slug": "soft-drinks-10",
       "description": "Refreshing drinks, iced tea, lemonade, and soft drinks.",
       "items": [
         {
